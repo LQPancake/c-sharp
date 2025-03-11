@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Suli\tombgyak\tombgyak\bin\Debug\tombgyak.exe.config
+C:\Users\Baliga József\source\repos\Suli\tombgyak\tombgyak\bin\Debug\tombgyak.exe
+C:\Users\Baliga József\source\repos\Suli\tombgyak\tombgyak\bin\Debug\tombgyak.pdb
+C:\Users\Baliga József\source\repos\Suli\tombgyak\tombgyak\obj\Debug\tombgyak.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Suli\tombgyak\tombgyak\obj\Debug\tombgyak.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Suli\tombgyak\tombgyak\obj\Debug\tombgyak.exe
+C:\Users\Baliga József\source\repos\Suli\tombgyak\tombgyak\obj\Debug\tombgyak.pdb

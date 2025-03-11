@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Suli\gyakorlas\gyakorlas\bin\Debug\gyakorlas.exe.config
+C:\Users\Baliga József\source\repos\Suli\gyakorlas\gyakorlas\bin\Debug\gyakorlas.exe
+C:\Users\Baliga József\source\repos\Suli\gyakorlas\gyakorlas\bin\Debug\gyakorlas.pdb
+C:\Users\Baliga József\source\repos\Suli\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Suli\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Suli\gyakorlas\gyakorlas\obj\Debug\gyakorlas.exe
+C:\Users\Baliga József\source\repos\Suli\gyakorlas\gyakorlas\obj\Debug\gyakorlas.pdb

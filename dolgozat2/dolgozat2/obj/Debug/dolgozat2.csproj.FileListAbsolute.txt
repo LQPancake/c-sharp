@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Suli\dolgozat2\dolgozat2\bin\Debug\dolgozat2.exe.config
+C:\Users\Baliga József\source\repos\Suli\dolgozat2\dolgozat2\bin\Debug\dolgozat2.exe
+C:\Users\Baliga József\source\repos\Suli\dolgozat2\dolgozat2\bin\Debug\dolgozat2.pdb
+C:\Users\Baliga József\source\repos\Suli\dolgozat2\dolgozat2\obj\Debug\dolgozat2.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Suli\dolgozat2\dolgozat2\obj\Debug\dolgozat2.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Suli\dolgozat2\dolgozat2\obj\Debug\dolgozat2.exe
+C:\Users\Baliga József\source\repos\Suli\dolgozat2\dolgozat2\obj\Debug\dolgozat2.pdb

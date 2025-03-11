@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Suli\tombdoga\tombdoga\bin\Debug\tombdoga.exe.config
+C:\Users\Baliga József\source\repos\Suli\tombdoga\tombdoga\bin\Debug\tombdoga.exe
+C:\Users\Baliga József\source\repos\Suli\tombdoga\tombdoga\bin\Debug\tombdoga.pdb
+C:\Users\Baliga József\source\repos\Suli\tombdoga\tombdoga\obj\Debug\tombdoga.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Suli\tombdoga\tombdoga\obj\Debug\tombdoga.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Suli\tombdoga\tombdoga\obj\Debug\tombdoga.exe
+C:\Users\Baliga József\source\repos\Suli\tombdoga\tombdoga\obj\Debug\tombdoga.pdb

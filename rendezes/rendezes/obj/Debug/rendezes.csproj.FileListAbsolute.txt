@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Suli\rendezes\rendezes\bin\Debug\rendezes.exe.config
+C:\Users\Baliga József\source\repos\Suli\rendezes\rendezes\bin\Debug\rendezes.exe
+C:\Users\Baliga József\source\repos\Suli\rendezes\rendezes\bin\Debug\rendezes.pdb
+C:\Users\Baliga József\source\repos\Suli\rendezes\rendezes\obj\Debug\rendezes.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Suli\rendezes\rendezes\obj\Debug\rendezes.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Suli\rendezes\rendezes\obj\Debug\rendezes.exe
+C:\Users\Baliga József\source\repos\Suli\rendezes\rendezes\obj\Debug\rendezes.pdb
