@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Suli\körök\körök\bin\Debug\körök.exe.config
+C:\Users\Baliga József\source\repos\Suli\körök\körök\bin\Debug\körök.exe
+C:\Users\Baliga József\source\repos\Suli\körök\körök\bin\Debug\körök.pdb
+C:\Users\Baliga József\source\repos\Suli\körök\körök\obj\Debug\körök.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Suli\körök\körök\obj\Debug\körök.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Suli\körök\körök\obj\Debug\körök.exe
+C:\Users\Baliga József\source\repos\Suli\körök\körök\obj\Debug\körök.pdb

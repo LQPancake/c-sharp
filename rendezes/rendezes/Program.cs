@@ -10,32 +10,16 @@ namespace _11A_buborek
     {
         static void Main(string[] args)
         {
-            var tomb = TombGyar();
+            var tomb = tombGyar();
+
             Kiiras(tomb);
-            Rendez(tomb);
+            Rendez(tomb, 1);
             Kiiras(tomb);
             Console.ReadKey();
         }
 
-        static void TombGyar(int[] ujTomb)
-        {
-            int hossz, legkis, legnagy;
-            Console.WriteLine("Mennyire hosszú legyen a tömb");
-            hossz = int.Parse(Console.ReadLine());
-            Console.WriteLine("Mennyi legyen a legkisebb érték a tömbbe");
-            legkis = int.Parse(Console.ReadLine());
-            Console.WriteLine("Mennyi legyen a legnagyobb érték a tömbbe");
-            legnagy = int.Parse(Console.ReadLine());
-            Random vsz = new Random();
-            int[] ujTomb = new int[hossz];
-            for (int i = 0; i < ujTomb.Length; i++)
-            {
-                ujTomb[i] = vsz.Next(legkis, legnagy);
-            }
-            return ujTomb;
-        }
 
-        static void Kiiras(int[] kapottTomb)
+        public static void Kiiras(int[] kapottTomb)
         {
             for (int i = 0; i < kapottTomb.Length; i++)
             {
@@ -43,38 +27,57 @@ namespace _11A_buborek
             }
             Console.WriteLine();
         }
-        static void Rendez(int[] KapottTomb, int merre=0)
+
+        public static void Rendez(int[] kapottTomb, int merre = 0)
         {
             if (merre == 0)
             {
                 return;
             }
-            for (int i = 0; i > KapottTomb.Length - 1; i++)
+            for (int i = 0; i < kapottTomb.Length - 1; i++)
             {
-                for (int j = 0; j < KapottTomb.Length - i - 1; j++)
+                for (int j = 0; j < kapottTomb.Length - i - 1; j++)
                 {
                     if (merre < 0)
                     {
-                        if (KapottTomb[j] < KapottTomb[j + 1])
+                        if (kapottTomb[j] < kapottTomb[j + 1])
                         {
-                            int seged = KapottTomb[j];
-                            KapottTomb[j] = KapottTomb[j + 1];
-                            KapottTomb[j + 1] = seged;
+                            int seged = kapottTomb[j];
+                            kapottTomb[j] = kapottTomb[j + 1];
+                            kapottTomb[j + 1] = seged;
                         }
                     }
                     else
                     {
-
+                        if (kapottTomb[j] > kapottTomb[j + 1])
+                        {
+                            int seged = kapottTomb[j];
+                            kapottTomb[j] = kapottTomb[j + 1];
+                            kapottTomb[j + 1] = seged;
+                        }
                     }
-                }
 
+                }
             }
         }
 
-        static int Osszeadas(int a, int b)
+        public static int[] tombGyar()
         {
-            int c = a + b;
-            return c;
+            int meret, tol, ig;
+            Console.Write("Tömb mérete: ");
+            meret = int.Parse(Console.ReadLine());
+            Console.Write("\nTÓL: ");
+            tol = int.Parse(Console.ReadLine());
+            Console.Write("\nIG: ");
+            ig = int.Parse(Console.ReadLine());
+            Random vsz = new Random();
+            int[] tomb = new int[meret];
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                tomb[i] = vsz.Next(tol, ig + 1);
+            }
+            return tomb;
         }
     }
 }
+    
