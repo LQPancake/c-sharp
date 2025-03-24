@@ -15,7 +15,7 @@ namespace körök
             korTer(kor_sugarak);
             korKer(kor_sugarak);
             FileIras(kor_sugarak, "lista.txt");
-            FileKI("lista.txt");
+            var tomb2 = FileKI("lista.txt");
             Console.ReadKey();
         }
         public static double[] input()
@@ -61,22 +61,37 @@ namespace körök
                 Console.WriteLine("Hiba a fájlkezelés során! GATYA ROTTY!");
             }
         }
-        public static void FileKI(string filenev="lista.txt")
+        public static int[] FileKI(string filenev="lista.txt")
         {
             try
             {
                 Console.WriteLine($"A '{filenev}' tartalma:\t");
                 StreamReader sr = new StreamReader(filenev);
+                int sorokSzama = 0;
                 while (!sr.EndOfStream)
                 {
-                    string line = sr.ReadLine();
-                    Console.WriteLine(line);
+                    //string line = sr.ReadLine();
+                    //Console.WriteLine(line);
+                    Console.WriteLine(sr.ReadLine());
+                    sorokSzama++;
                 }
                 sr.Close();
+
+                StreamReader sr2 = new StreamReader(filenev);
+                int[] tombFilebol = new int[sorokSzama];
+                int tombIndex = 0;
+                while (!sr2.EndOfStream)
+                {
+                    tombFilebol[tombIndex] = int.Parse(sr2.ReadLine());
+                    tombIndex++;
+                }
+                sr2.Close();
+                return tombFilebol;
             }
             catch
             {
                 Console.WriteLine("Hiba a fájl beolvasása során! GATYA ROTTY!");
+                return null;
             }
         }
     }

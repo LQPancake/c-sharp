@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Csharp\lottoszamok\lottoszamok\bin\Debug\lottoszamok.exe.config
+C:\Users\Baliga József\source\repos\Csharp\lottoszamok\lottoszamok\bin\Debug\lottoszamok.exe
+C:\Users\Baliga József\source\repos\Csharp\lottoszamok\lottoszamok\bin\Debug\lottoszamok.pdb
+C:\Users\Baliga József\source\repos\Csharp\lottoszamok\lottoszamok\obj\Debug\lottoszamok.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Csharp\lottoszamok\lottoszamok\obj\Debug\lottoszamok.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Csharp\lottoszamok\lottoszamok\obj\Debug\lottoszamok.exe
+C:\Users\Baliga József\source\repos\Csharp\lottoszamok\lottoszamok\obj\Debug\lottoszamok.pdb

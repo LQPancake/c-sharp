@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Suli\\tombgyak2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{303A0EF7-1FD5-4CC6-BA8D-0E8AE9C55AE0}|tombgyak2\\tombgyak2.csproj|c:\\users\\baliga j\u00F3zsef\\source\\repos\\suli\\tombgyak2\\tombgyak2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303A0EF7-1FD5-4CC6-BA8D-0E8AE9C55AE0}|tombgyak2\\tombgyak2.csproj|solutionrelative:tombgyak2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Suli\\tombgyak2\\tombgyak2\\Program.cs",
+              "RelativeDocumentMoniker": "tombgyak2\\Program.cs",
+              "ToolTip": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Suli\\tombgyak2\\tombgyak2\\Program.cs",
+              "RelativeToolTip": "tombgyak2\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwCQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:11:24.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
