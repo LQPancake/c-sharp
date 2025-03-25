@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Csharp\2d_tomb\2d_tomb\obj\Debug\2d_tomb.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Csharp\2d_tomb\2d_tomb\obj\Debug\2d_tomb.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Csharp\2d_tomb\2d_tomb\bin\Debug\2d_tomb.exe.config
+C:\Users\Baliga József\source\repos\Csharp\2d_tomb\2d_tomb\bin\Debug\2d_tomb.exe
+C:\Users\Baliga József\source\repos\Csharp\2d_tomb\2d_tomb\bin\Debug\2d_tomb.pdb
+C:\Users\Baliga József\source\repos\Csharp\2d_tomb\2d_tomb\obj\Debug\2d_tomb.exe
+C:\Users\Baliga József\source\repos\Csharp\2d_tomb\2d_tomb\obj\Debug\2d_tomb.pdb
