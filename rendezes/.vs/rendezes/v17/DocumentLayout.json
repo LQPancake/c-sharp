@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Suli\\rendezes\\",
+  "WorkspaceRootPath": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Csharp\\rendezes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85A1CA12-DFF6-47FF-8E8C-1E94F8BED193}|rendezes\\rendezes.csproj|c:\\users\\baliga j\u00F3zsef\\source\\repos\\suli\\rendezes\\rendezes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85A1CA12-DFF6-47FF-8E8C-1E94F8BED193}|rendezes\\rendezes.csproj|c:\\users\\baliga j\u00F3zsef\\source\\repos\\csharp\\rendezes\\rendezes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85A1CA12-DFF6-47FF-8E8C-1E94F8BED193}|rendezes\\rendezes.csproj|solutionrelative:rendezes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Suli\\rendezes\\rendezes\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Csharp\\rendezes\\rendezes\\Program.cs",
               "RelativeDocumentMoniker": "rendezes\\Program.cs",
-              "ToolTip": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Suli\\rendezes\\rendezes\\Program.cs",
+              "ToolTip": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Csharp\\rendezes\\rendezes\\Program.cs",
               "RelativeToolTip": "rendezes\\Program.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwFIAAAAEAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwFIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T08:06:40.315Z",
               "EditorCaption": ""
