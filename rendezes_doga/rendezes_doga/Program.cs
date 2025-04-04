@@ -14,6 +14,8 @@ namespace rendezes_doga
             var tipp = lottoGen(sorSzam, oszlopSzam, tartomany);
             kiIras(tipp);
             filebaIr(tipp, "tippek.csv");
+            var ujtipp = filebolOlvas("tippek.csv");
+            kiIras(ujtipp);
             Console.ReadKey();
         }
 
@@ -33,7 +35,7 @@ namespace rendezes_doga
                     }
                     sor[j] = szam;
                 }
-
+                Rendezes(sor);
                 for (int j = 0; j < oszlopSzam; j++)
                 {
                     szamok[i, j] = sor[j];
@@ -66,8 +68,15 @@ namespace rendezes_doga
                 for (int j = 0; j < tomb.GetLength(1); j++)
                 {
                     Console.Write($"{tomb[i, j]}\t");
+                    if(j == 4)
+                    {
+                        Console.WriteLine();
+                    }
+                    else
+                    {
+                        Console.Write(';');
+                    }
                 }
-                Console.WriteLine();
             }
         }
         public static void filebaIr(int[,] szamok, string filenev)
@@ -98,25 +107,29 @@ namespace rendezes_doga
                 Console.ReadKey();
             }
         }
-        public static int[] filebolOlvas(string filenev)
+        public static int[,] filebolOlvas(string filenev)
         {
             try
             {
                 int[,] ujtipp = new int[sorSzam, oszlopSzam];
                 StreamReader sr = new StreamReader(filenev);
-                for(int i = 0; i < ujtipp.GetLength(0); i++)
+                for (int i = 0; i < ujtipp.GetLength(0); i++)
                 {
-                    for (int j = 0; j < ujtipp.GetLength(1); j++)
+                    string sor = sr.ReadLine();
+                    string[] sorDb = sor.Split(';');
+                    for (int j = 0; j < sorDb.Length; j++)
                     {
-                        int sor = sr.ReadLine();
+                        ujtipp[i,j] = int.Parse(sorDb[j]);
                     }
                 }
                 sr.Close();
+                return ujtipp;
             }
             catch
             {
                 Console.WriteLine("A fileból olvasás közben hiba történt.");
                 Console.ReadKey();
+                return null;
             }
         }
     }
