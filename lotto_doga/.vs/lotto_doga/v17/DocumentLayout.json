@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Csharp\\lotto_doga\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7303687F-9F0F-4EF1-9234-500E1DC19F76}|lotto_doga\\lotto_doga.csproj|c:\\users\\baliga j\u00F3zsef\\source\\repos\\csharp\\lotto_doga\\lotto_doga\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7303687F-9F0F-4EF1-9234-500E1DC19F76}|lotto_doga\\lotto_doga.csproj|solutionrelative:lotto_doga\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Csharp\\lotto_doga\\lotto_doga\\Program.cs",
+              "RelativeDocumentMoniker": "lotto_doga\\Program.cs",
+              "ToolTip": "C:\\Users\\Baliga J\u00F3zsef\\source\\repos\\Csharp\\lotto_doga\\lotto_doga\\Program.cs",
+              "RelativeToolTip": "lotto_doga\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T06:07:54.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

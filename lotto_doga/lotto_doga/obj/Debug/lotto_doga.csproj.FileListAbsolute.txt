@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Csharp\lotto_doga\lotto_doga\bin\Debug\lotto_doga.exe.config
+C:\Users\Baliga József\source\repos\Csharp\lotto_doga\lotto_doga\bin\Debug\lotto_doga.exe
+C:\Users\Baliga József\source\repos\Csharp\lotto_doga\lotto_doga\bin\Debug\lotto_doga.pdb
+C:\Users\Baliga József\source\repos\Csharp\lotto_doga\lotto_doga\obj\Debug\lotto_doga.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Csharp\lotto_doga\lotto_doga\obj\Debug\lotto_doga.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Csharp\lotto_doga\lotto_doga\obj\Debug\lotto_doga.exe
+C:\Users\Baliga József\source\repos\Csharp\lotto_doga\lotto_doga\obj\Debug\lotto_doga.pdb

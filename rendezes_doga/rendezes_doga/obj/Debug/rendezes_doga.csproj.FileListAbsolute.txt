@@ -1,7 +1,0 @@
-C:\Users\Baliga József\source\repos\Csharp\rendezes_doga\rendezes_doga\obj\Debug\rendezes_doga.csproj.AssemblyReference.cache
-C:\Users\Baliga József\source\repos\Csharp\rendezes_doga\rendezes_doga\obj\Debug\rendezes_doga.csproj.CoreCompileInputs.cache
-C:\Users\Baliga József\source\repos\Csharp\rendezes_doga\rendezes_doga\bin\Debug\rendezes_doga.exe.config
-C:\Users\Baliga József\source\repos\Csharp\rendezes_doga\rendezes_doga\bin\Debug\rendezes_doga.exe
-C:\Users\Baliga József\source\repos\Csharp\rendezes_doga\rendezes_doga\bin\Debug\rendezes_doga.pdb
-C:\Users\Baliga József\source\repos\Csharp\rendezes_doga\rendezes_doga\obj\Debug\rendezes_doga.exe
-C:\Users\Baliga József\source\repos\Csharp\rendezes_doga\rendezes_doga\obj\Debug\rendezes_doga.pdb
