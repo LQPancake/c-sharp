@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Csharp\struktura\struktura\bin\Debug\struktura.exe.config
+C:\Users\Baliga József\source\repos\Csharp\struktura\struktura\bin\Debug\struktura.exe
+C:\Users\Baliga József\source\repos\Csharp\struktura\struktura\bin\Debug\struktura.pdb
+C:\Users\Baliga József\source\repos\Csharp\struktura\struktura\obj\Debug\struktura.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Csharp\struktura\struktura\obj\Debug\struktura.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Csharp\struktura\struktura\obj\Debug\struktura.exe
+C:\Users\Baliga József\source\repos\Csharp\struktura\struktura\obj\Debug\struktura.pdb
