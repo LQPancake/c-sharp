@@ -64,13 +64,37 @@ namespace struktura
                         $"{adat.lakcim};" +
                         $"{adat.telefonszam};" +
                         $"{adat.eletkor};" +
-                        $"{adat.tanuloE}");
+                        $"{adat.tanuloE}\n");
 
                 }
                 sw.Close();
             }
             catch{
                 Console.WriteLine("Fileba írás közben hiba történt.");
+            }
+        }
+        public static void filebolOlvas(string filenev)
+        {
+            try
+            {
+                StreamReader sr = new StreamReader(filenev = "adat3.txt");
+                while (!sr.EndOfStream)
+                {
+                    string sor = sr.ReadLine();
+                    string[] sorDb = sor.Split(';');
+                    Console.WriteLine($"\nAdat:" +
+                        $"{sorDb[0]}\t" +
+                        $"{sorDb[1]}\t" +
+                        $"{sorDb[2]}\t" +
+                        $"{sorDb[3]}\t" +
+                        $"{sorDb[4]}\t" +
+                        $"{sorDb[5]}\t");
+                }
+                sr.Close();
+            }
+            catch
+            {
+                Console.WriteLine("Fileból olvasás közben hiba történt.");
                 Console.ReadKey();
             }
         }
