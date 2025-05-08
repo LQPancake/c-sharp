@@ -19,12 +19,15 @@ namespace struktura
     {
         static void Main(string[] args)
         {  
-            var szemelyAdatok = Adatrogzites();
+            var szemelyAdatok = Start("adatok.csv");
+            Adatrogzites(szemelyAdatok);
             filebaIr(szemelyAdatok, "adatok.csv");
+            filebolOlvas("adatok.csv");
+            Console.ReadKey();
         }
-        public static List<Adatok> Adatrogzites()
+        public static void Adatrogzites(List<Adatok> szemelyAdatok)
         {
-            List<Adatok> szemelyAdatok = new List<Adatok>();
+            //List<Adatok> szemelyAdatok = new List<Adatok>();
             while (true){
                 Console.Write("Név: ");
                 string nev = Console.ReadLine();
@@ -48,10 +51,8 @@ namespace struktura
                 ujAdat.telefonszam = telefonszam;
                 ujAdat.eletkor = eletkor;
                 ujAdat.tanuloE = tanuloE;
-
                 szemelyAdatok.Add(ujAdat);
             }
-            return szemelyAdatok;
         }
         public static void filebaIr(List<Adatok> adatok, string filenev)
         {
@@ -59,12 +60,12 @@ namespace struktura
                 StreamWriter sw = new StreamWriter(filenev);
                 foreach (var adat in adatok)
                 {
-                    sw.Write($"" +
+                    sw.WriteLine($"" +
                         $"{adat.nev};" +
                         $"{adat.lakcim};" +
                         $"{adat.telefonszam};" +
                         $"{adat.eletkor};" +
-                        $"{adat.tanuloE}\n");
+                        $"{adat.tanuloE}");
 
                 }
                 sw.Close();
@@ -77,26 +78,54 @@ namespace struktura
         {
             try
             {
-                StreamReader sr = new StreamReader(filenev = "adat3.txt");
+                StreamReader sr = new StreamReader(filenev);
                 while (!sr.EndOfStream)
                 {
                     string sor = sr.ReadLine();
                     string[] sorDb = sor.Split(';');
-                    Console.WriteLine($"\nAdat:" +
+                    Console.WriteLine("\nADAT:");
+                    Console.WriteLine($"" +
                         $"{sorDb[0]}\t" +
                         $"{sorDb[1]}\t" +
                         $"{sorDb[2]}\t" +
                         $"{sorDb[3]}\t" +
-                        $"{sorDb[4]}\t" +
-                        $"{sorDb[5]}\t");
+                        $"{sorDb[4]}");
                 }
                 sr.Close();
             }
-            catch
+            catch(Exception e)
             {
-                Console.WriteLine("Fileból olvasás közben hiba történt.");
+                Console.WriteLine($"Fileból olvasás közben hiba történt.{e.Message}");
                 Console.ReadKey();
             }
+        }
+        public static List<Adatok> Start(string filenev)
+        {
+            List<Adatok> szemelyAdatok = new List<Adatok>();
+            try
+            {
+                StreamReader sr = new StreamReader(filenev);
+                while (!sr.EndOfStream)
+                {
+                    string sor = sr.ReadLine();
+                    string[] sorDb = sor.Split(';');
+                    Adatok ujAdat = new Adatok();
+                    ujAdat.nev = sorDb[0];
+                    ujAdat.lakcim = sorDb[1];
+                    ujAdat.telefonszam = sorDb[2];
+                    ujAdat.eletkor = int.Parse(sorDb[3]);
+                    ujAdat.tanuloE = bool.Parse(sorDb[4]);
+                    szemelyAdatok.Add(ujAdat);
+                }
+
+                sr.Close();
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine($"Hiba történt a file beolvasás közben.{e.Message}");
+            }
+
+            return szemelyAdatok;
         }
     }
 }
