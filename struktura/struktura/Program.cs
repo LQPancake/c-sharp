@@ -23,6 +23,8 @@ namespace struktura
             Adatrogzites(szemelyAdatok);
             filebaIr(szemelyAdatok, "adatok.csv");
             filebolOlvas("adatok.csv");
+            Console.WriteLine($"Adatok száma: {szemelyAdatok.Count()}");
+            Console.WriteLine($"Adatok száma saját számításaink szerint: {AdatSzamolo(szemelyAdatok)}");
             Console.ReadKey();
         }
         public static void Adatrogzites(List<Adatok> szemelyAdatok)
@@ -126,6 +128,15 @@ namespace struktura
             }
 
             return szemelyAdatok;
+        }
+        public static int AdatSzamolo(List<Adatok> adatokList)
+        {
+            int szamlalo = 0;
+            foreach(var adatok in adatokList)
+            {
+                szamlalo++;
+            }
+            return szamlalo;
         }
     }
 }
