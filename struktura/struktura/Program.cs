@@ -18,14 +18,42 @@ namespace struktura
     internal class Program
     {
         static void Main(string[] args)
-        {  
+        {
             var szemelyAdatok = Start("adatok.csv");
             Adatrogzites(szemelyAdatok);
             filebaIr(szemelyAdatok, "adatok.csv");
             filebolOlvas("adatok.csv");
             Console.WriteLine($"Adatok száma: {szemelyAdatok.Count()}");
             Console.WriteLine($"Adatok száma saját számításaink szerint: {AdatSzamolo(szemelyAdatok)}");
+            Console.WriteLine($"20 éves múlt emberek száma: {FelnottSzamolas(szemelyAdatok)}");
+            bekertKor(szemelyAdatok);
+            var korDict = korSzamolo(szemelyAdatok);
+            DictLista(korDict);
+
             Console.ReadKey();
+        }
+        public static void DictLista(Dictionary<int, int> lista)
+        {
+            foreach (var elem in lista)
+            {
+                Console.WriteLine($"{elem.Key} éves {elem.Value} fő");
+            }
+        }
+        public static Dictionary<int, int> korSzamolo(List<Adatok> adatok)
+        {
+            Dictionary<int, int> dict = new Dictionary<int, int>();
+            foreach(var adat in adatok)
+            {
+                if(dict.ContainsKey(adat.eletkor))
+                {
+                    dict[adat.eletkor]++;
+                }
+                else
+                {
+                    dict.Add(adat.eletkor, 1);
+                }
+            }
+            return dict;
         }
         public static void Adatrogzites(List<Adatok> szemelyAdatok)
         {
@@ -137,6 +165,31 @@ namespace struktura
                 szamlalo++;
             }
             return szamlalo;
+        }
+        public static int FelnottSzamolas(List<Adatok> adatokList)
+        {
+            int korSzamlalo = 0;
+            foreach(var adat in adatokList)
+
+            {
+                if (adat.eletkor >= 20)
+                {
+                    korSzamlalo++;
+                }
+            }
+            return korSzamlalo;
+        }
+        public static void bekertKor(List<Adatok> adatokList)
+        {
+            Console.WriteLine("Adj meg egy kort: ");
+            int bekertKor = int.Parse(Console.ReadLine());
+            foreach(var adatok in adatokList)
+            {
+                if(adatok.eletkor >= bekertKor)
+                {
+                    Console.Write($"{adatok.nev}");
+                }
+            }
         }
     }
 }
