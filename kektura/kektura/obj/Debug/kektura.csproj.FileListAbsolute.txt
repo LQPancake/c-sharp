@@ -1,0 +1,7 @@
+C:\Users\Baliga József\source\repos\Csharp\kektura\kektura\bin\Debug\kektura.exe.config
+C:\Users\Baliga József\source\repos\Csharp\kektura\kektura\bin\Debug\kektura.exe
+C:\Users\Baliga József\source\repos\Csharp\kektura\kektura\bin\Debug\kektura.pdb
+C:\Users\Baliga József\source\repos\Csharp\kektura\kektura\obj\Debug\kektura.csproj.AssemblyReference.cache
+C:\Users\Baliga József\source\repos\Csharp\kektura\kektura\obj\Debug\kektura.csproj.CoreCompileInputs.cache
+C:\Users\Baliga József\source\repos\Csharp\kektura\kektura\obj\Debug\kektura.exe
+C:\Users\Baliga József\source\repos\Csharp\kektura\kektura\obj\Debug\kektura.pdb
