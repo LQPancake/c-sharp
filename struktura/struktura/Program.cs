@@ -32,7 +32,7 @@ namespace struktura
 
             Console.ReadKey();
         }
-        public static void DictLista(Dictionary<int, int> lista)
+        public static void DictLista(SortedDictionary<int, int> lista)
         {
             foreach (var elem in lista)
             {
