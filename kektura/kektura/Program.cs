@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
@@ -94,5 +95,20 @@ namespace kektura
             }
             return minTura;
         }
+        public static void hianyosNev(List<turaAdat> turaAdatok)
+        {
+            try
+            {
+                StreamReader sr = new StreamReader("kektura.csv");
+                sr.ReadLine();
+
+                sr.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Hiba történt a hianyosNev static-ba! {e.Message}");
+            }
+        }
     }
-}
+
+    }
