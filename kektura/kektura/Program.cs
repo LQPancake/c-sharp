@@ -30,9 +30,11 @@ namespace kektura
             Console.WriteLine($"5. feladat: A legrövidebb szakasz adatai:\n \tKezdete: {rovidTura.kezdoPont}");
             Console.WriteLine($"\tVége: {rovidTura.celPont}");
             Console.WriteLine($"\tTávolság: {rovidTura.tavHossz} km");
-            Console.WriteLine($"7. feladat: Hiányos állomásnevek:\n");
-            Console.WriteLine($"8. feladat: A túra legmagasabban fekvő végpontja:\n");
-
+            Console.WriteLine($"7. feladat: Hiányos állomásnevek:\n {hianyosAllomasok(turaAdatok)}");
+            var legmagasabb = LegmagasabbPont(turaAdatok);
+            Console.WriteLine($"8. feladat: A túra legmagasabban fekvő végpontja:");
+            Console.WriteLine($"\t A végpont neve: {legmagasabb.nev}");
+            Console.WriteLine($"\t Magasság: {legmagasabb.magassag} m");
             Console.ReadKey();
         }
         public static List<turaAdat> adatRead(string filename = "kektura.csv")
@@ -54,7 +56,7 @@ namespace kektura
                         ujAdat.emelkedesek = int.Parse(sorDb[3]);
                         ujAdat.lejtesek = int.Parse(sorDb[4]);
                         string pecset = sorDb[5];
-                        if(pecset == "i")
+                        if (pecset == "i")
                         {
                             ujAdat.pecsetHely = true;
                         }
@@ -77,7 +79,7 @@ namespace kektura
         public static double osszTav(List<turaAdat> turaAdatok)
         {
             double ossztav = 0;
-            foreach(var adat in turaAdatok)
+            foreach (var adat in turaAdatok)
             {
                 ossztav += adat.tavHossz;
             }
@@ -95,20 +97,43 @@ namespace kektura
             }
             return minTura;
         }
-        public static void hianyosNev(List<turaAdat> turaAdatok)
+        public static bool hianyosNev(turaAdat turaAdatok)
         {
-            try
+            return turaAdatok.pecsetHely && !turaAdatok.celPont.ToLower().Contains("pecsetelohely");
+        }
+        public static string hianyosAllomasok(List<turaAdat> turaAdatok)
+        {
+            string eredmeny = "";
+            foreach (var tura in turaAdatok)
             {
-                StreamReader sr = new StreamReader("kektura.csv");
-                sr.ReadLine();
+                if (hianyosNev(tura))
+                {
+                    eredmeny += $"\t{tura.celPont}\n";
+                }
+            }
+            if (eredmeny == "")
+            {
+                Console.WriteLine("Nincs hiányos állomásnév!");
+            }
+            return eredmeny.TrimEnd();
+        }
+        public static (string nev, int magassag) LegmagasabbPont(List<turaAdat> turaAdatok)
+        {
+            int aktualisMagassag = kezdoMagassag;
+            int maxMagassag = aktualisMagassag;
+            string maxHely = turaAdatok[0].kezdoPont;
 
-                sr.Close();
-            }
-            catch (Exception e)
+            foreach (var tura in turaAdatok)
             {
-                Console.WriteLine($"Hiba történt a hianyosNev static-ba! {e.Message}");
+                aktualisMagassag += tura.emelkedesek - tura.lejtesek;
+                if (aktualisMagassag > maxMagassag)
+                {
+                    maxMagassag = aktualisMagassag;
+                    maxHely = tura.celPont;
+                }
             }
+
+            return (maxHely, maxMagassag);
         }
     }
-
-    }
+}
