@@ -1,0 +1,7 @@
+C:\Users\balig\Documents\GitHub\Csharp\konyvtar\konyvtar\bin\Debug\konyvtar.exe.config
+C:\Users\balig\Documents\GitHub\Csharp\konyvtar\konyvtar\bin\Debug\konyvtar.exe
+C:\Users\balig\Documents\GitHub\Csharp\konyvtar\konyvtar\bin\Debug\konyvtar.pdb
+C:\Users\balig\Documents\GitHub\Csharp\konyvtar\konyvtar\obj\Debug\konyvtar.csproj.AssemblyReference.cache
+C:\Users\balig\Documents\GitHub\Csharp\konyvtar\konyvtar\obj\Debug\konyvtar.csproj.CoreCompileInputs.cache
+C:\Users\balig\Documents\GitHub\Csharp\konyvtar\konyvtar\obj\Debug\konyvtar.exe
+C:\Users\balig\Documents\GitHub\Csharp\konyvtar\konyvtar\obj\Debug\konyvtar.pdb

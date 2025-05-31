@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\konyvtar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E368B812-83EB-4811-BA98-4111506048E3}|konyvtar\\konyvtar.csproj|c:\\users\\balig\\documents\\github\\csharp\\konyvtar\\konyvtar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E368B812-83EB-4811-BA98-4111506048E3}|konyvtar\\konyvtar.csproj|solutionrelative:konyvtar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\konyvtar\\konyvtar\\Program.cs",
+              "RelativeDocumentMoniker": "konyvtar\\Program.cs",
+              "ToolTip": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\konyvtar\\konyvtar\\Program.cs",
+              "RelativeToolTip": "konyvtar\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwG0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:00:23.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
