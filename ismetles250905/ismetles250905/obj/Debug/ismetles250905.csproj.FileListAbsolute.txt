@@ -1,0 +1,8 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\bin\Debug\ismetles250905.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\bin\Debug\ismetles250905.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\bin\Debug\ismetles250905.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\obj\Debug\ismetles250905.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\obj\Debug\ismetles250905.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\obj\Debug\ismetles250905.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\obj\Debug\ismetles250905.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\ismetles250905\ismetles250905\obj\Debug\ismetles250905.exe.config
