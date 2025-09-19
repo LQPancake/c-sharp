@@ -1,0 +1,8 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\obj\Debug\szallas.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\obj\Debug\szallas.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\bin\Debug\szallas.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\bin\Debug\szallas.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\bin\Debug\szallas.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\obj\Debug\szallas.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\obj\Debug\szallas.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\szallas\szallas\obj\Debug\szallas.exe.config
