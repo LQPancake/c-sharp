@@ -10,6 +10,18 @@ namespace oop
     {
         static void Main(string[] args)
         {
+            Dog bodri = new Dog();
+            bodri.Name = "Bodri";
+            bodri.Age = 10;
+            Dog ubul = new Dog();
+            ubul.Name = "Ubul";
+            ubul.Age = 20;
         }
+    }
+
+    internal class Dog
+    {
+        public string Name;
+        public int Age;
     }
 }
