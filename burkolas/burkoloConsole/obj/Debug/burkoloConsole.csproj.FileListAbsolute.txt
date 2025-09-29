@@ -1,0 +1,7 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\bin\Debug\burkoloConsole.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\bin\Debug\burkoloConsole.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\bin\Debug\burkoloConsole.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.pdb
