@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\burkolas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\burkolas\\burkoloconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|solutionrelative:burkoloconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\burkolas\\burkoloconsole\\helyiseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|solutionrelative:burkoloconsole\\helyiseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\burkolas\\burkoloconsole\\helyiseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|solutionrelative:burkoloconsole\\helyiseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\burkolas\\burkoloconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAB5935-79EA-4EAB-8CAC-FDBDF1ED8C94}|burkoloConsole\\burkoloConsole.csproj|solutionrelative:burkoloconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "helyiseg.cs",
               "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\burkolas\\burkoloConsole\\helyiseg.cs",
               "RelativeDocumentMoniker": "burkoloConsole\\helyiseg.cs",
               "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\burkolas\\burkoloConsole\\helyiseg.cs",
               "RelativeToolTip": "burkoloConsole\\helyiseg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwBsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T10:24:15.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\burkolas\\burkoloConsole\\Program.cs",
               "RelativeDocumentMoniker": "burkoloConsole\\Program.cs",
               "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\burkolas\\burkoloConsole\\Program.cs",
               "RelativeToolTip": "burkoloConsole\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T10:20:03.227Z",
               "EditorCaption": ""

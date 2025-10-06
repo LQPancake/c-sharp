@@ -5,3 +5,4 @@ C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\bu
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.csproj.CoreCompileInputs.cache
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.exe
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\burkolas\burkoloConsole\obj\Debug\burkoloConsole.exe.config
