@@ -19,7 +19,7 @@ namespace burkoloConsole
             
             Console.WriteLine($"A 3,5 * 4.5 m-es szoba területe: {Helyiseg.AreaStatic(3.5, 4.5)}\u00B2");
             Helyiseg.saveFile(placeList);
-            var readFile = Helyiseg.readFile();
+            var readFile = Helyiseg.readFile("places.csv");
             Console.ReadKey();
         }
     }

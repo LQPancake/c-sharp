@@ -32,7 +32,7 @@ namespace burkoloConsole
                 StreamWriter sw = new StreamWriter("places.csv");
                 foreach(var item in placeList)
                 {
-                    sw.WriteLine("{item.roomName};{item.roomDesc};{item.roomLength};{item.roomWidth}");
+                    sw.WriteLine($"{item.Name};{item.Description};{item.Length};{item.Width}");
                 }
                 sw.Close();
                 Console.WriteLine("Fileba lementve.");
@@ -57,6 +57,7 @@ namespace burkoloConsole
                     szoba.Description = parts[1];
                     szoba.Length = double.Parse(parts[2]);
                     szoba.Width = double.Parse(parts[3]);
+                    placeList.Add(szoba);
                 }
             }
             catch(Exception ex)
