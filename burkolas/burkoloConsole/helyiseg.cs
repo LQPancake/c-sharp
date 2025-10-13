@@ -4,31 +4,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography.X509Certificates;
 
 namespace burkoloConsole
 {
     internal class Helyiseg
     {
         public string Name { get; private set; }
-        public string Description;
-        public double Length;
-        public double Width;
-        
+        public string Description { get; private set; }
+        public double Length { get; private set; }
+        public double Width { get; private set; }
         private static List<Helyiseg> placeList = new List<Helyiseg>();
+        public static int Count { get; private set; } = 0;
+        public static double FullArea { get; private set; } = 0;
         public Helyiseg(string roomName, string roomDesc, double roomLength, double roomWidth)
         {
             this.Name = roomName;
             this.Description = roomDesc;
             this.Length = roomLength;
             this.Width = roomWidth;
+            Count++;
+            FullArea += Length * Width;
         }
-        public int Perimeter()
+        public double Perimeter()
         {
-            return 2 * (int)(Length + Width);
+            return 2 * this.Length + this.Width;
         }
         public double Area()
         {
-            return Length * Width;
+            return this.Length * this.Width;
         }
         public static double AreaStatic(double a, double b)
         {
@@ -39,14 +43,14 @@ namespace burkoloConsole
             try
             {
                 StreamWriter sw = new StreamWriter("places.csv");
-                foreach(var item in placeList)
+                foreach (var item in placeList)
                 {
                     sw.WriteLine($"{item.Name};{item.Description};{item.Length};{item.Width}");
                 }
                 sw.Close();
                 Console.WriteLine("Fileba lementve.");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Hiba a fileba írása során. {ex.Message}");
             }
@@ -61,15 +65,11 @@ namespace burkoloConsole
                 {
                     string line = sr.ReadLine();
                     string[] parts = line.Split(';');
-                    Helyiseg szoba = new Helyiseg();
-                    szoba.Name = parts[0];
-                    szoba.Description = parts[1];
-                    szoba.Length = double.Parse(parts[2]);
-                    szoba.Width = double.Parse(parts[3]);
-                    placeList.Add(szoba);
+                    var newObj = new Helyiseg(parts[0], parts[1], double.Parse(parts[2]), double.Parse(parts[3]));
+                    placeList.Add(newObj);
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Hiba történt a file beolvasása során. {ex.Message}");
             }
@@ -90,16 +90,19 @@ namespace burkoloConsole
                 double roomLength = double.Parse(Console.ReadLine());
                 Console.Write("Szélesség: ");
                 double roomWidth = double.Parse(Console.ReadLine());
-
-                Helyiseg szoba = new Helyiseg(roomName,roomDesc,roomLength,roomWidth);
-                /*szoba.Name = roomName;
-                szoba.Description = roomDesc;
-                szoba.Length = roomLength;
-                szoba.Width = roomWidth;
-                placeList.Add(szoba);*/
+                Helyiseg szoba = new Helyiseg(roomName, roomDesc, roomLength, roomWidth);
             }
             return placeList;
 
+        }
+        public static void HelyisegLister(List<Helyiseg> placeList)
+        {
+            foreach (Helyiseg h in placeList)
+            {
+                Console.WriteLine($"{h.Name} terület: {h.Area()}m\u00B2, kerület: {h.Perimeter()}m");
+            }
+            Console.WriteLine($"Helyiségek száma: {Helyiseg.Count} db");
+            Console.WriteLine($"A szobák összterülete: {Helyiseg.FullArea} m\u00B2");
         }
     }
 }

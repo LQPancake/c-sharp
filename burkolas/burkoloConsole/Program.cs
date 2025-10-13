@@ -9,17 +9,14 @@ namespace burkoloConsole
 {
     internal class Program1 
     {
+        static List<Helyiseg> placeList = new List<Helyiseg>();
         static void Main(string[] args)
         {
-            var placeList = Helyiseg.DataLoader();
-            foreach (Helyiseg h in placeList)
-            {
-                Console.WriteLine($"{h.Name} terület: {h.Area()}m\u00B2");
-            }
-            
-            Console.WriteLine($"A 3,5 * 4.5 m-es szoba területe: {Helyiseg.AreaStatic(3.5, 4.5)}\u00B2");
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            placeList = Helyiseg.readFile("places.csv");
+            placeList = Helyiseg.DataLoader();
             Helyiseg.saveFile(placeList);
-            var readFile = Helyiseg.readFile("places.csv");
+            Helyiseg.HelyisegLister(placeList);
             Console.ReadKey();
         }
     }
