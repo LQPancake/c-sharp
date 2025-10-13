@@ -9,10 +9,19 @@ namespace burkoloConsole
 {
     internal class Helyiseg
     {
-        public string Name;
+        public string Name { get; private set; }
         public string Description;
         public double Length;
         public double Width;
+        
+        private static List<Helyiseg> placeList = new List<Helyiseg>();
+        public Helyiseg(string roomName, string roomDesc, double roomLength, double roomWidth)
+        {
+            this.Name = roomName;
+            this.Description = roomDesc;
+            this.Length = roomLength;
+            this.Width = roomWidth;
+        }
         public int Perimeter()
         {
             return 2 * (int)(Length + Width);
@@ -82,12 +91,12 @@ namespace burkoloConsole
                 Console.Write("Szélesség: ");
                 double roomWidth = double.Parse(Console.ReadLine());
 
-                Helyiseg szoba = new Helyiseg();
-                szoba.Name = roomName;
+                Helyiseg szoba = new Helyiseg(roomName,roomDesc,roomLength,roomWidth);
+                /*szoba.Name = roomName;
                 szoba.Description = roomDesc;
                 szoba.Length = roomLength;
                 szoba.Width = roomWidth;
-                placeList.Add(szoba);
+                placeList.Add(szoba);*/
             }
             return placeList;
 
