@@ -9,13 +9,14 @@ namespace burkoloConsole
 {
     internal class Program1 
     {
-        static List<Helyiseg> placeList = new List<Helyiseg>();
+        static List<Helyiseg> placeList;
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
+            //Helyiseg.Converter("places.csv", "festo.csv");
             placeList = Helyiseg.readFile("places.csv");
             placeList = Helyiseg.DataLoader();
-            Helyiseg.saveFile(placeList);
+            Helyiseg.saveFile("places.csv", placeList);
             Helyiseg.HelyisegLister(placeList);
             Console.ReadKey();
         }

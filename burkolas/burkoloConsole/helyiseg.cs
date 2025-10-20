@@ -41,18 +41,26 @@ namespace burkoloConsole
         {
             return this.Length * this.Width;
         }
+        public double NeedsToBePaintWall()
+        {
+            return 2*this.Width*this.Height + 2*this.Length*this.Height;
+        }
+        public double CeilingArea()
+        {
+            return this.Length * this.Width;
+        }
         public static double AreaStatic(double a, double b)
         {
             return a + b;
         }
-        public static void saveFile(List<Helyiseg> placeList)
+        public static void saveFile(string filename, List<Helyiseg> placeList)
         {
             try
             {
                 StreamWriter sw = new StreamWriter("places.csv");
                 foreach (var item in placeList)
                 {
-                    sw.WriteLine($"{item.Name};{item.Description};{item.Length};{item.Width}");
+                    sw.WriteLine($"{item.Name};{item.Description};{item.Length};{item.Width};{item.Height}");
                 }
                 sw.Close();
                 Console.WriteLine("Fileba lementve.");
@@ -72,9 +80,18 @@ namespace burkoloConsole
                 {
                     string line = sr.ReadLine();
                     string[] parts = line.Split(';');
-                    var newObj = new Helyiseg(parts[0], parts[1], double.Parse(parts[2]), double.Parse(parts[3]));
-                    placeList.Add(newObj);
+                    if (parts.Length == 4)
+                    {
+                        var newObj = new Helyiseg(parts[0], parts[1], double.Parse(parts[2]), double.Parse(parts[3]));
+                        placeList.Add(newObj);
+                    }
+                    if (parts.Length == 5)
+                    {
+                        var newObj = new Helyiseg(parts[0], parts[1], double.Parse(parts[2]), double.Parse(parts[3]), double.Parse(parts[4]));
+                        placeList.Add(newObj);
+                    }
                 }
+                sr.Close();
             }
             catch (Exception ex)
             {
@@ -97,7 +114,11 @@ namespace burkoloConsole
                 double roomLength = double.Parse(Console.ReadLine());
                 Console.Write("Szélesség: ");
                 double roomWidth = double.Parse(Console.ReadLine());
-                Helyiseg szoba = new Helyiseg(roomName, roomDesc, roomLength, roomWidth);
+                Console.Write("Magasság: ");
+                double roomHeight = double.Parse(Console.ReadLine());
+
+                Helyiseg szoba = new Helyiseg(roomName, roomDesc, roomLength, roomWidth, roomHeight);
+                placeList.Add(szoba);
             }
             return placeList;
 
@@ -112,23 +133,22 @@ namespace burkoloConsole
             Console.WriteLine($"A szobák összterülete: {Helyiseg.FullArea} m\u00B2");
             Console.WriteLine($"A szobák összkerülete: {Helyiseg.FullPerimeter} m");
         }
-        public static List<Helyiseg> Converter(string filename)
+        /*public static void Converter(string filenameIn, string filenameOut)
         {
             try
             {
-                StreamReader sr = new StreamReader(filename);
-                while (!sr.EndOfStream)
+                placeList = readFile(filenameIn);
+                StreamWriter sw = new StreamWriter(filenameOut);
+                foreach (var item in placeList)
                 {
-
+                    sw.WriteLine($"{item.Name};{item.Description};{item.Length};{item.Width};2,7");
                 }
-                sr.Close();
+                sw.Close();
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Hiba történt a file konvertálása során. {ex.Message}");
-                return null;
             }
-            return placeList;
-        }
+        }*/
     }
 }
