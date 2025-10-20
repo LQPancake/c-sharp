@@ -14,8 +14,10 @@ namespace burkoloConsole
         public string Description { get; private set; }
         public double Length { get; private set; }
         public double Width { get; private set; }
+        public double Height { get; private set; }
         private static List<Helyiseg> placeList = new List<Helyiseg>();
         public static int Count { get; private set; } = 0;
+        public static double FullPerimeter { get; private set; } = 0;
         public static double FullArea { get; private set; } = 0;
         public Helyiseg(string roomName, string roomDesc, double roomLength, double roomWidth)
         {
@@ -25,6 +27,11 @@ namespace burkoloConsole
             this.Width = roomWidth;
             Count++;
             FullArea += Length * Width;
+            FullPerimeter += 2 * Length + 2 * Width;
+        }
+        public Helyiseg(string roomName, string roomDesc, double roomLength, double roomWidth, double roomHeight) : this(roomName, roomDesc, roomLength, roomWidth)
+        {
+            this.Height = roomHeight;
         }
         public double Perimeter()
         {
@@ -103,6 +110,25 @@ namespace burkoloConsole
             }
             Console.WriteLine($"Helyiségek száma: {Helyiseg.Count} db");
             Console.WriteLine($"A szobák összterülete: {Helyiseg.FullArea} m\u00B2");
+            Console.WriteLine($"A szobák összkerülete: {Helyiseg.FullPerimeter} m");
+        }
+        public static List<Helyiseg> Converter(string filename)
+        {
+            try
+            {
+                StreamReader sr = new StreamReader(filename);
+                while (!sr.EndOfStream)
+                {
+
+                }
+                sr.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Hiba történt a file konvertálása során. {ex.Message}");
+                return null;
+            }
+            return placeList;
         }
     }
 }
