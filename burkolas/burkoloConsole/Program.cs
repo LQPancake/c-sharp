@@ -18,6 +18,8 @@ namespace burkoloConsole
             placeList = Helyiseg.DataLoader();
             Helyiseg.saveFile("places.csv", placeList);
             Helyiseg.HelyisegLister(placeList);
+            var newObj1 = new Helyiseg("a", "b", 2.4, 5.4);
+            var newObj2 = new Helyiseg("a", "b", 2.4, 5.4, 2.7);
             Console.ReadKey();
         }
     }

@@ -19,6 +19,25 @@ namespace burkoloConsole
         public static int Count { get; private set; } = 0;
         public static double FullPerimeter { get; private set; } = 0;
         public static double FullArea { get; private set; } = 0;
+        public Helyiseg(string line)
+        {
+            string[] items = line.Split(';');
+            this.Name = items[0];
+            this.Description = items[1];
+            this.Length = double.Parse(items[2]);
+            this.Width = double.Parse(items[3]);
+            if (items.Length > 4)
+            {
+                this.Height = double.Parse(items[4]);
+            }
+            else
+            {
+                this.Height = 2.7;
+            }
+            Count++;
+            FullArea += this.Length * this.Width;
+            FullPerimeter += Perimeter();
+        }
         public Helyiseg(string roomName, string roomDesc, double roomLength, double roomWidth)
         {
             this.Name = roomName;
@@ -122,6 +141,25 @@ namespace burkoloConsole
             }
             return placeList;
 
+        }
+        public static List<Helyiseg> readFile2(string filename)
+        {
+            try
+            {
+                var sr = new StreamReader(filename);
+                while (!sr.EndOfStream)
+                {
+                    var line = sr.ReadLine();
+                    var newObj = new Helyiseg(line);
+                    placeList.Add(newObj);
+                }
+                sr.Close();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Hiba a kettes típusú beolvasás közben.", ex.Message);
+            }
+            return placeList;
         }
         public static void HelyisegLister(List<Helyiseg> placeList)
         {
