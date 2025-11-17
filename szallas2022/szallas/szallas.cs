@@ -19,7 +19,10 @@ namespace szallasLibrary
         public string UzemeltetoTelefonSzam { get; private set; }
         public bool Statusz { get; private set; }
         public string TevekenysegTipus { get; private set; }
-        public static List<Szallas> SzallasokListaja { get; private set; }
+        public static List<Szallas> SzallasokListaja = new List<Szallas>();
+        public static int SzallasDarab { get; private set; } = 0;
+        public static int AktivSzallasokSzama { get; private set; } = 0;
+        public static int AktivAgyszam { get; private set; } = 0;
         public Szallas(string sor)
         {
             string[] db = sor.Split(';');
@@ -39,6 +42,12 @@ namespace szallasLibrary
                 this.Statusz = false;
             }
             this.TevekenysegTipus = db[8];
+            SzallasDarab++;
+            if(this.Statusz == true)
+            {
+                AktivSzallasokSzama++;
+                AktivAgyszam += this.AgySzam;
+            }
         }
 
         public static List<Szallas> FileBetoltes(string filename)
