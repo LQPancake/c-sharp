@@ -49,7 +49,6 @@ namespace szallasLibrary
                 AktivAgyszam += this.AgySzam;
             }
         }
-
         public static List<Szallas> FileBetoltes(string filename)
         {
             try
@@ -69,6 +68,5 @@ namespace szallasLibrary
             }
             return SzallasokListaja;
         }
-
     }
 }
