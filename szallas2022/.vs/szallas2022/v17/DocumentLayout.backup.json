@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\szallas2022\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDE72FE0-C903-46CB-92C6-DECC0D1C5156}|szallascon\\szallascon.csproj|C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\szallas2022\\szallascon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDE72FE0-C903-46CB-92C6-DECC0D1C5156}|szallascon\\szallascon.csproj|solutionrelative:szallascon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A037A44-B6D1-4CB8-B7D3-A048AFD48124}|szallas\\szallas.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\szallas2022\\szallas\\szallas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A037A44-B6D1-4CB8-B7D3-A048AFD48124}|szallas\\szallas.csproj|solutionrelative:szallas\\szallas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE72FE0-C903-46CB-92C6-DECC0D1C5156}|szallascon\\szallascon.csproj|C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\szallas2022\\szallascon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE72FE0-C903-46CB-92C6-DECC0D1C5156}|szallascon\\szallascon.csproj|solutionrelative:szallascon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "szallas.cs",
               "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\szallas2022\\szallas\\szallas.cs",
               "RelativeDocumentMoniker": "szallas\\szallas.cs",
               "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\szallas2022\\szallas\\szallas.cs",
               "RelativeToolTip": "szallas\\szallas.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwEQAAACNAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAjwBoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T07:27:10.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\szallas2022\\szallascon\\Program.cs",
               "RelativeDocumentMoniker": "szallascon\\Program.cs",
               "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\szallas2022\\szallascon\\Program.cs",
               "RelativeToolTip": "szallascon\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAnwCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T07:25:52.289Z",
               "EditorCaption": ""
