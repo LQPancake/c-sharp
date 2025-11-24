@@ -10,6 +10,9 @@ namespace szallasLibrary
     public class Szallas
     {
         public string _szallasNeve;
+        /// <summary>
+        /// A szállás nevét tartalmazza
+        /// </summary>
         public string _SzallasNeve { get; private set; }
         public string SzallasCime { get; private set; }
         public int SzobaSzam { get; private set; }
@@ -20,9 +23,14 @@ namespace szallasLibrary
         public bool Statusz { get; private set; }
         public string TevekenysegTipus { get; private set; }
         public static List<Szallas> SzallasokListaja = new List<Szallas>();
+        public static Dictionary<string, int> TelepulesekDictionary = new Dictionary<string, int>();
         public static int SzallasDarab { get; private set; } = 0;
         public static int AktivSzallasokSzama { get; private set; } = 0;
         public static int AktivAgyszam { get; private set; } = 0;
+        /// <summary>
+        /// A Szallas osztály konstruktora, ami egy adatfile soraiból objektumot készít
+        /// </summary>
+        /// <param name="sor">A beolvasandó file neve</param>
         public Szallas(string sor)
         {
             string[] db = sor.Split(';');
@@ -49,6 +57,12 @@ namespace szallasLibrary
                 AktivAgyszam += this.AgySzam;
             }
         }
+        /// <summary>
+        /// A paraméterben szereplő file soraiból listát készít
+        /// </summary>
+        /// <param name="filename">A betöltendő file neve</param>
+        /// <returns>A file soraiból készített lista</returns>
+        /// <exception cref="Exception">Hiba üzenet, ha a file műveletek elakadnak</exception>
         public static List<Szallas> FileBetoltes(string filename)
         {
             try
@@ -62,11 +76,32 @@ namespace szallasLibrary
                 }
                 sr.Close();
             }
-            catch (Exception ex)
+            catch
             {
-                Console.WriteLine("Hiba a fájl beolvasása során: " + ex.Message);
+                throw new Exception("Értesítse a programozó! \n" + "+36301234567 számon\n" +  "A hiba a SZALLAS.FILEBETOLTES helyen található");
             }
             return SzallasokListaja;
+
+        }
+        public static Dictionary<string, int> TelepulesekValogato(List<Szallas> lista)
+        {
+            foreach (var szallas in lista)
+            {
+                string telepulesNeve = szallas.SzallasCime.Split(' ')[1];
+                if (!szallas.Statusz)
+                {
+                    continue;
+                }
+                if (TelepulesekDictionary.ContainsKey(telepulesNeve))
+                {
+                    TelepulesekDictionary[telepulesNeve]++;
+                }
+                else
+                {
+                    TelepulesekDictionary.Add(telepulesNeve, 1);
+                }
+            }
+            return TelepulesekDictionary;
         }
     }
 }
