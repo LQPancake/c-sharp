@@ -1,0 +1,6 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\bin\Debug\SikidomokLibrary.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\bin\Debug\SikidomokLibrary.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.pdb

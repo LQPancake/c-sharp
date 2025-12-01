@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8A41384-C1FA-4A17-9A10-D935DD3BFB38}|SikidomLibrary\\SikidomLibrary.csproj|C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok\\sikidomlibrary\\sikidom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8A41384-C1FA-4A17-9A10-D935DD3BFB38}|SikidomLibrary\\SikidomLibrary.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\sikidomok\\sikidomlibrary\\sikidom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A41384-C1FA-4A17-9A10-D935DD3BFB38}|SikidomLibrary\\SikidomLibrary.csproj|solutionrelative:sikidomlibrary\\sikidom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79F9D74-F91D-4EDF-810E-9FFBA736DDA4}|SikidomokCon\\SikidomokCon.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\sikidomok\\sikidomokcon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79F9D74-F91D-4EDF-810E-9FFBA736DDA4}|SikidomokCon\\SikidomokCon.csproj|C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok\\sikidomokcon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79F9D74-F91D-4EDF-810E-9FFBA736DDA4}|SikidomokCon\\SikidomokCon.csproj|solutionrelative:sikidomokcon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "SikidomLibrary\\Sikidom.cs",
               "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok\\SikidomLibrary\\Sikidom.cs",
               "RelativeToolTip": "SikidomLibrary\\Sikidom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAxwCsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T10:05:15.076Z",
               "EditorCaption": ""

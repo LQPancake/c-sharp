@@ -40,13 +40,9 @@ namespace SikidomLibrary
                 Console.WriteLine("Add meg a kör sugarát:");
                 double sugar = Convert.ToDouble(Console.ReadLine());
                 Kor ujKor = new Kor(sugar);
-
                 korLista.Add(ujKor);
-
-                // automatikusan számolunk és eltárolunk
                 ujKor.korKerulet();
                 ujKor.korTerulet();
-
                 Console.WriteLine("Szeretnél még egy kört hozzáadni? (i/n)");
                 string valasz = Console.ReadLine();
                 if (valasz.ToLower() != "i")
