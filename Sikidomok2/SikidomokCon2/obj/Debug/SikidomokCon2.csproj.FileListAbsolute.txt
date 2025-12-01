@@ -8,3 +8,4 @@ C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\S
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\Sikidomo.D70B380E.Up2Date
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.exe
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.exe.config
