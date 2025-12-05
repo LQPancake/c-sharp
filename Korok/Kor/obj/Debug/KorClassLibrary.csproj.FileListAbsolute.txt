@@ -1,0 +1,6 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\Kor\bin\Debug\Kor.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\Kor\bin\Debug\Kor.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\Kor\obj\Debug\KorClassLibrary.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\Kor\obj\Debug\KorClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\Kor\obj\Debug\Kor.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\Kor\obj\Debug\Kor.pdb

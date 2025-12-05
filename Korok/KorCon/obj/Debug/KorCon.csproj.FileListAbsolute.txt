@@ -1,0 +1,11 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\bin\Debug\KorCon.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\bin\Debug\KorCon.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\bin\Debug\KorCon.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\bin\Debug\Kor.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\bin\Debug\Kor.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\obj\Debug\KorCon.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\obj\Debug\KorCon.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\obj\Debug\KorCon.csproj.Up2Date
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\obj\Debug\KorCon.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\obj\Debug\KorCon.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Korok\KorCon\obj\Debug\KorCon.exe.config

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Korok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A441366-CF7E-4694-83D9-F2F494329429}|KorCon\\KorCon.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\korok\\korcon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A441366-CF7E-4694-83D9-F2F494329429}|KorCon\\KorCon.csproj|solutionrelative:korcon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED23F111-E81C-4A58-96EA-5AA5F3EF573B}|Kor\\Kor.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\korok\\kor\\korlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED23F111-E81C-4A58-96EA-5AA5F3EF573B}|Kor\\Kor.csproj|solutionrelative:kor\\korlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KorLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Korok\\Kor\\KorLibrary.cs",
+              "RelativeDocumentMoniker": "Kor\\KorLibrary.cs",
+              "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Korok\\Kor\\KorLibrary.cs",
+              "RelativeToolTip": "Kor\\KorLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:49:56.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Korok\\KorCon\\Program.cs",
+              "RelativeDocumentMoniker": "KorCon\\Program.cs",
+              "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Korok\\KorCon\\Program.cs",
+              "RelativeToolTip": "KorCon\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:49:19.609Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
