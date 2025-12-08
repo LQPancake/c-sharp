@@ -1,0 +1,6 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaLibrary\bin\Debug\SikidomokDogaLibrary.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaLibrary\bin\Debug\SikidomokDogaLibrary.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaLibrary\obj\Debug\PontrendszerDogaLib.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaLibrary\obj\Debug\PontrendszerDogaLib.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaLibrary\obj\Debug\SikidomokDogaLibrary.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaLibrary\obj\Debug\SikidomokDogaLibrary.pdb

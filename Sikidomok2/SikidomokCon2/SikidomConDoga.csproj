@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SikidomokLibrary\SikidomokLibrary.csproj">
+    <ProjectReference Include="..\SikidomokLibrary\SikidomDogaLibrary.csproj">
       <Project>{1e407347-cf82-4bfc-9376-cbade54fc546}</Project>
-      <Name>SikidomokLibrary</Name>
+      <Name>SikidomDogaLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

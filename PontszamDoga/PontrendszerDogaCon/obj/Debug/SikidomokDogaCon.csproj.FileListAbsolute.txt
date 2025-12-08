@@ -1,0 +1,11 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\bin\Debug\SikidomokDogaCon.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\bin\Debug\SikidomokDogaCon.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\bin\Debug\SikidomokDogaCon.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\bin\Debug\SikidomokDogaLibrary.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\bin\Debug\SikidomokDogaLibrary.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\obj\Debug\SikidomokDogaCon.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\obj\Debug\SikidomokDogaCon.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\obj\Debug\Sikidomo.D3461621.Up2Date
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\obj\Debug\SikidomokDogaCon.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\obj\Debug\SikidomokDogaCon.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\SikidomokDoga\SikidomokDogaCon\obj\Debug\SikidomokDogaCon.exe.config

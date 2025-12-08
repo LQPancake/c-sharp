@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SikidomokLibrary;
+using SikidomDogaLibrary;
 
-namespace SikidomokCon2
+namespace SikidomConDoga
 {
     internal class Program
     {
@@ -89,7 +89,7 @@ namespace SikidomokCon2
             }
             else
             {
-                Console.WriteLine("Helytelen válasz:((((((((((((((((((((((");
+                Console.WriteLine("Helytelen válasz");
             }
                 Console.ReadKey();
         }
