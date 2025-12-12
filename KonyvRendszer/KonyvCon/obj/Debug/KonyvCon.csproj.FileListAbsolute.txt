@@ -1,0 +1,11 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\bin\Debug\KonyvCon.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\bin\Debug\KonyvCon.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\bin\Debug\KonyvCon.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\bin\Debug\KonyvLib.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\bin\Debug\KonyvLib.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\obj\Debug\KonyvCon.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\obj\Debug\KonyvCon.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\obj\Debug\KonyvCon.csproj.Up2Date
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\obj\Debug\KonyvCon.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\obj\Debug\KonyvCon.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvCon\obj\Debug\KonyvCon.exe.config
