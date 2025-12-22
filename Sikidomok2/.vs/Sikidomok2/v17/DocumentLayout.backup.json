@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok2\\",
+  "WorkspaceRootPath": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\Sikidomok2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{503A61A0-9F45-4F43-836F-17328B6FA55E}|SikidomokCon2\\SikidomokCon2.csproj|C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok2\\sikidomokcon2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{503A61A0-9F45-4F43-836F-17328B6FA55E}|SikidomokCon2\\SikidomokCon2.csproj|c:\\users\\balig\\documents\\github\\csharp\\sikidomok2\\sikidomokcon2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{503A61A0-9F45-4F43-836F-17328B6FA55E}|SikidomokCon2\\SikidomokCon2.csproj|solutionrelative:sikidomokcon2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E407347-CF82-4BFC-9376-CBADE54FC546}|SikidomokLibrary\\SikidomokLibrary.csproj|c:\\users\\pancakelq\\documents\\github\\c-sharp\\sikidomok2\\sikidomoklibrary\\sikidomoklibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E407347-CF82-4BFC-9376-CBADE54FC546}|SikidomokLibrary\\SikidomokLibrary.csproj|C:\\Users\\balig\\Documents\\GitHub\\Csharp\\Sikidomok2\\sikidomoklibrary\\sikidomoklibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E407347-CF82-4BFC-9376-CBADE54FC546}|SikidomokLibrary\\SikidomokLibrary.csproj|solutionrelative:sikidomoklibrary\\sikidomoklibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SikidomokLibrary.cs",
-              "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok2\\SikidomokLibrary\\SikidomokLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\Sikidomok2\\SikidomokLibrary\\SikidomokLibrary.cs",
               "RelativeDocumentMoniker": "SikidomokLibrary\\SikidomokLibrary.cs",
-              "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok2\\SikidomokLibrary\\SikidomokLibrary.cs",
-              "RelativeToolTip": "SikidomokLibrary\\SikidomokLibrary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABCAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\Sikidomok2\\SikidomokLibrary\\SikidomokLibrary.cs*",
+              "RelativeToolTip": "SikidomokLibrary\\SikidomokLibrary.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T07:18:24.533Z",
               "EditorCaption": ""
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok2\\SikidomokCon2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\Sikidomok2\\SikidomokCon2\\Program.cs",
               "RelativeDocumentMoniker": "SikidomokCon2\\Program.cs",
-              "ToolTip": "C:\\Users\\PancakeLQ\\Documents\\GitHub\\c-sharp\\Sikidomok2\\SikidomokCon2\\Program.cs",
+              "ToolTip": "C:\\Users\\balig\\Documents\\GitHub\\Csharp\\Sikidomok2\\SikidomokCon2\\Program.cs",
               "RelativeToolTip": "SikidomokCon2\\Program.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFsAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T07:18:06.272Z",
               "EditorCaption": ""

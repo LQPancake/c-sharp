@@ -9,3 +9,13 @@ C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\S
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.exe
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.pdb
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.exe.config
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\bin\Debug\SikidomokCon2.exe.config
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\bin\Debug\SikidomokCon2.exe
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\bin\Debug\SikidomokCon2.pdb
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\bin\Debug\SikidomokLibrary.dll
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\bin\Debug\SikidomokLibrary.pdb
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.csproj.AssemblyReference.cache
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.csproj.CoreCompileInputs.cache
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\obj\Debug\Sikidomo.D70B380E.Up2Date
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.exe
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokCon2\obj\Debug\SikidomokCon2.pdb
