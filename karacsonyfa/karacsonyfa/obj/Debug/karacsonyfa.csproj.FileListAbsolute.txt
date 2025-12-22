@@ -1,0 +1,8 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\bin\Debug\karacsonyfa.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\bin\Debug\karacsonyfa.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\bin\Debug\karacsonyfa.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\obj\Debug\karacsonyfa.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\obj\Debug\karacsonyfa.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\obj\Debug\karacsonyfa.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\obj\Debug\karacsonyfa.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\karacsonyfa\karacsonyfa\obj\Debug\karacsonyfa.exe.config

@@ -1,0 +1,6 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvLib\bin\Debug\KonyvLib.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvLib\bin\Debug\KonyvLib.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvLib\obj\Debug\KonyvLib.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvLib\obj\Debug\KonyvLib.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvLib\obj\Debug\KonyvLib.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\KonyvRendszer\KonyvLib\obj\Debug\KonyvLib.pdb

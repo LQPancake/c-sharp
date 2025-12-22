@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonyvCon", "KonyvCon\KonyvCon.csproj", "{2D6F4B35-6FC8-4DDB-8BD1-EC74AC5BC3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonyvLib", "KonyvLib\KonyvLib.csproj", "{B9D0F030-BA5F-4EB1-BED0-2E99B1C3CBB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D6F4B35-6FC8-4DDB-8BD1-EC74AC5BC3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6F4B35-6FC8-4DDB-8BD1-EC74AC5BC3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6F4B35-6FC8-4DDB-8BD1-EC74AC5BC3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6F4B35-6FC8-4DDB-8BD1-EC74AC5BC3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D0F030-BA5F-4EB1-BED0-2E99B1C3CBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D0F030-BA5F-4EB1-BED0-2E99B1C3CBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D0F030-BA5F-4EB1-BED0-2E99B1C3CBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D0F030-BA5F-4EB1-BED0-2E99B1C3CBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBCDCC1B-CBCD-4E0C-BF6F-CB53E01693BC}
+	EndGlobalSection
+EndGlobal

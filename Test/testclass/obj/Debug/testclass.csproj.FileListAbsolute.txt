@@ -1,0 +1,6 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Test\testclass\bin\Debug\testclass.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Test\testclass\bin\Debug\testclass.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Test\testclass\obj\Debug\testclass.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Test\testclass\obj\Debug\testclass.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Test\testclass\obj\Debug\testclass.dll
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Test\testclass\obj\Debug\testclass.pdb
