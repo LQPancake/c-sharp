@@ -1,0 +1,22 @@
+C:\Users\Kata\source\repos\Functions\bin\Debug\net8.0\Functions.deps.json
+C:\Users\Kata\source\repos\Functions\bin\Debug\net8.0\Functions.dll
+C:\Users\Kata\source\repos\Functions\bin\Debug\net8.0\Functions.pdb
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\Functions.AssemblyInfoInputs.cache
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\Functions.AssemblyInfo.cs
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\Functions.csproj.CoreCompileInputs.cache
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\Functions.dll
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\refint\Functions.dll
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\Functions.pdb
+C:\Users\Kata\source\repos\Functions\obj\Debug\net8.0\ref\Functions.dll
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\bin\Debug\net8.0\Functions.deps.json
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\bin\Debug\net8.0\Functions.dll
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\bin\Debug\net8.0\Functions.pdb
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\Functions.AssemblyInfoInputs.cache
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\Functions.AssemblyInfo.cs
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\Functions.csproj.CoreCompileInputs.cache
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\Functions.dll
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\refint\Functions.dll
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\Functions.pdb
+C:\Users\Szabó Bence\Desktop\oróai maty\Functions\obj\Debug\net8.0\ref\Functions.dll

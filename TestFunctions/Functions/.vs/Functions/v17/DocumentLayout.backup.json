@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84A93616-3FB9-452A-919F-A15AF19F072D}|..\\Functions.Tests\\Functions.Tests.csproj|c:\\users\\szab\u00F3 bence\\desktop\\or\u00F3ai maty\\functions.tests\\isopentest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A93616-3FB9-452A-919F-A15AF19F072D}|..\\Functions.Tests\\Functions.Tests.csproj|c:\\users\\szab\u00F3 bence\\desktop\\or\u00F3ai maty\\functions.tests\\hasnegativity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEC8463-BAD5-43D3-828C-BF134D8F5F8D}|Functions.csproj|c:\\users\\szab\u00F3 bence\\desktop\\or\u00F3ai maty\\functions\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEC8463-BAD5-43D3-828C-BF134D8F5F8D}|Functions.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A93616-3FB9-452A-919F-A15AF19F072D}|..\\Functions.Tests\\Functions.Tests.csproj|c:\\users\\szab\u00F3 bence\\desktop\\or\u00F3ai maty\\functions.tests\\functionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A93616-3FB9-452A-919F-A15AF19F072D}|..\\Functions.Tests\\Functions.Tests.csproj|c:\\users\\szab\u00F3 bence\\desktop\\or\u00F3ai maty\\functions.tests\\longerwordtests - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hasnegativity.cs",
+              "DocumentMoniker": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\Hasnegativity.cs",
+              "RelativeDocumentMoniker": "..\\Functions.Tests\\Hasnegativity.cs",
+              "ToolTip": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\Hasnegativity.cs*",
+              "RelativeToolTip": "..\\Functions.Tests\\Hasnegativity.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:17:45.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IsOpenTest.cs",
+              "DocumentMoniker": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\IsOpenTest.cs",
+              "RelativeDocumentMoniker": "..\\Functions.Tests\\IsOpenTest.cs",
+              "ToolTip": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\IsOpenTest.cs",
+              "RelativeToolTip": "..\\Functions.Tests\\IsOpenTest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:43:12.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LongerWordTests - Copy.cs",
+              "DocumentMoniker": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\LongerWordTests - Copy.cs",
+              "RelativeDocumentMoniker": "..\\Functions.Tests\\LongerWordTests - Copy.cs",
+              "ToolTip": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\LongerWordTests - Copy.cs",
+              "RelativeToolTip": "..\\Functions.Tests\\LongerWordTests - Copy.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:43:09.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FunctionServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\FunctionServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Functions.Tests\\FunctionServiceTests.cs",
+              "ToolTip": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions.Tests\\FunctionServiceTests.cs",
+              "RelativeToolTip": "..\\Functions.Tests\\FunctionServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:31:33.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions\\Functions.cs",
+              "RelativeDocumentMoniker": "Functions.cs",
+              "ToolTip": "C:\\Users\\Szab\u00F3 Bence\\Desktop\\or\u00F3ai maty\\Functions\\Functions.cs*",
+              "RelativeToolTip": "Functions.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T10:16:48.193Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
