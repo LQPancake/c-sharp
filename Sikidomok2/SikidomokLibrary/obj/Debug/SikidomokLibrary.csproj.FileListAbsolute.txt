@@ -4,3 +4,9 @@ C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debu
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.csproj.CoreCompileInputs.cache
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.dll
 C:\Users\PancakeLQ\Documents\GitHub\c-sharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.pdb
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokLibrary\bin\Debug\SikidomokLibrary.dll
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokLibrary\bin\Debug\SikidomokLibrary.pdb
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.csproj.AssemblyReference.cache
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.csproj.CoreCompileInputs.cache
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.dll
+C:\Users\balig\Documents\GitHub\Csharp\Sikidomok2\SikidomokLibrary\obj\Debug\SikidomokLibrary.pdb
