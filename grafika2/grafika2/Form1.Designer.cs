@@ -41,14 +41,18 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.labelEredmeny = new System.Windows.Forms.Label();
+            this.checkboxCitrom = new System.Windows.Forms.CheckBox();
+            this.hozzavalok = new System.Windows.Forms.GroupBox();
+            this.tea = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.hozzavalok.SuspendLayout();
             this.SuspendLayout();
             // 
             // checkboxKavekrem
             // 
             this.checkboxKavekrem.AutoSize = true;
-            this.checkboxKavekrem.Location = new System.Drawing.Point(184, 173);
+            this.checkboxKavekrem.Location = new System.Drawing.Point(13, 13);
             this.checkboxKavekrem.Name = "checkboxKavekrem";
             this.checkboxKavekrem.Size = new System.Drawing.Size(73, 17);
             this.checkboxKavekrem.TabIndex = 0;
@@ -58,7 +62,7 @@
             // checkboxTejszin
             // 
             this.checkboxTejszin.AutoSize = true;
-            this.checkboxTejszin.Location = new System.Drawing.Point(184, 196);
+            this.checkboxTejszin.Location = new System.Drawing.Point(13, 36);
             this.checkboxTejszin.Name = "checkboxTejszin";
             this.checkboxTejszin.Size = new System.Drawing.Size(57, 17);
             this.checkboxTejszin.TabIndex = 1;
@@ -68,7 +72,7 @@
             // checkboxTejpor
             // 
             this.checkboxTejpor.AutoSize = true;
-            this.checkboxTejpor.Location = new System.Drawing.Point(184, 219);
+            this.checkboxTejpor.Location = new System.Drawing.Point(13, 59);
             this.checkboxTejpor.Name = "checkboxTejpor";
             this.checkboxTejpor.Size = new System.Drawing.Size(52, 17);
             this.checkboxTejpor.TabIndex = 2;
@@ -85,6 +89,7 @@
             this.espresso.TabStop = true;
             this.espresso.Text = "espresso";
             this.espresso.UseVisualStyleBackColor = true;
+            this.espresso.CheckedChanged += new System.EventHandler(this.espresso_CheckedChanged);
             // 
             // duplaKave
             // 
@@ -96,6 +101,7 @@
             this.duplaKave.TabStop = true;
             this.duplaKave.Text = "dupla kávé";
             this.duplaKave.UseVisualStyleBackColor = true;
+            this.duplaKave.CheckedChanged += new System.EventHandler(this.duplaKave_CheckedChanged);
             // 
             // hosszuKave
             // 
@@ -107,6 +113,7 @@
             this.hosszuKave.TabStop = true;
             this.hosszuKave.Text = "hosszú kávé";
             this.hosszuKave.UseVisualStyleBackColor = true;
+            this.hosszuKave.CheckedChanged += new System.EventHandler(this.hosszuKave_CheckedChanged);
             // 
             // cukorSok
             // 
@@ -143,12 +150,13 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.tea);
             this.groupBox1.Controls.Add(this.hosszuKave);
             this.groupBox1.Controls.Add(this.duplaKave);
             this.groupBox1.Controls.Add(this.espresso);
-            this.groupBox1.Location = new System.Drawing.Point(483, 159);
+            this.groupBox1.Location = new System.Drawing.Point(147, 174);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(125, 93);
+            this.groupBox1.Size = new System.Drawing.Size(125, 119);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "kávéféleségek";
@@ -159,7 +167,7 @@
             this.groupBox2.Controls.Add(this.cukorMentes);
             this.groupBox2.Controls.Add(this.cukorKeves);
             this.groupBox2.Controls.Add(this.cukorSok);
-            this.groupBox2.Location = new System.Drawing.Point(314, 159);
+            this.groupBox2.Location = new System.Drawing.Point(317, 180);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(120, 93);
             this.groupBox2.TabIndex = 10;
@@ -168,40 +176,78 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(334, 332);
+            this.button1.Location = new System.Drawing.Point(298, 298);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(169, 38);
             this.button1.TabIndex = 11;
             this.button1.Text = "gemb";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // labelEredmeny
             // 
             this.labelEredmeny.AutoSize = true;
-            this.labelEredmeny.Location = new System.Drawing.Point(270, 380);
+            this.labelEredmeny.Location = new System.Drawing.Point(295, 353);
             this.labelEredmeny.Name = "labelEredmeny";
             this.labelEredmeny.Size = new System.Drawing.Size(83, 13);
             this.labelEredmeny.TabIndex = 12;
             this.labelEredmeny.Text = "Nincs eredmény";
+            // 
+            // checkboxCitrom
+            // 
+            this.checkboxCitrom.AutoSize = true;
+            this.checkboxCitrom.Enabled = false;
+            this.checkboxCitrom.Location = new System.Drawing.Point(13, 82);
+            this.checkboxCitrom.Name = "checkboxCitrom";
+            this.checkboxCitrom.Size = new System.Drawing.Size(55, 17);
+            this.checkboxCitrom.TabIndex = 13;
+            this.checkboxCitrom.Text = "Citrom";
+            this.checkboxCitrom.UseVisualStyleBackColor = true;
+            // 
+            // hozzavalok
+            // 
+            this.hozzavalok.Controls.Add(this.checkboxCitrom);
+            this.hozzavalok.Controls.Add(this.checkboxTejpor);
+            this.hozzavalok.Controls.Add(this.checkboxTejszin);
+            this.hozzavalok.Controls.Add(this.checkboxKavekrem);
+            this.hozzavalok.Location = new System.Drawing.Point(504, 174);
+            this.hozzavalok.Name = "hozzavalok";
+            this.hozzavalok.Size = new System.Drawing.Size(125, 119);
+            this.hozzavalok.TabIndex = 14;
+            this.hozzavalok.TabStop = false;
+            this.hozzavalok.Text = "Hozzávalók";
+            // 
+            // tea
+            // 
+            this.tea.AutoSize = true;
+            this.tea.Location = new System.Drawing.Point(14, 83);
+            this.tea.Name = "tea";
+            this.tea.Size = new System.Drawing.Size(40, 17);
+            this.tea.TabIndex = 6;
+            this.tea.TabStop = true;
+            this.tea.Text = "tea";
+            this.tea.UseVisualStyleBackColor = true;
+            this.tea.CheckedChanged += new System.EventHandler(this.tea_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.hozzavalok);
             this.Controls.Add(this.labelEredmeny);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.checkboxTejpor);
-            this.Controls.Add(this.checkboxTejszin);
-            this.Controls.Add(this.checkboxKavekrem);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Ital automata";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.hozzavalok.ResumeLayout(false);
+            this.hozzavalok.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,6 +268,9 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label labelEredmeny;
+        private System.Windows.Forms.CheckBox checkboxCitrom;
+        private System.Windows.Forms.GroupBox hozzavalok;
+        private System.Windows.Forms.RadioButton tea;
     }
 }
 
