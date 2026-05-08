@@ -1,0 +1,7 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\ConsoleUni1\obj\Debug\ConsoleUni1.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\ConsoleUni1\obj\Debug\ConsoleUni1.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\ConsoleUni1\bin\Debug\ConsoleUni1.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\ConsoleUni1\bin\Debug\ConsoleUni1.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\ConsoleUni1\bin\Debug\ConsoleUni1.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\ConsoleUni1\obj\Debug\ConsoleUni1.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\ConsoleUni1\obj\Debug\ConsoleUni1.pdb
