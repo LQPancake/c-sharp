@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9DF9AA1F-58F6-4169-AE8F-84A630901D23}</ProjectGuid>
+    <ProjectGuid>{EF2A46A1-F69F-4384-881E-FB20380F42B7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>FormsUni1</RootNamespace>
     <AssemblyName>FormsUni1</AssemblyName>
@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -78,6 +80,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleUni1\ConsoleUni1.csproj">
+      <Project>{f3cad865-4d90-4cdf-bae0-30d23a9e7187}</Project>
+      <Name>ConsoleUni1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
