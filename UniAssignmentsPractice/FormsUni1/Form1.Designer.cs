@@ -42,7 +42,16 @@
             this.textBoxDesignation = new System.Windows.Forms.TextBox();
             this.dateTimePickerDob = new System.Windows.Forms.DateTimePicker();
             this.groupBoxInput = new System.Windows.Forms.GroupBox();
+            this.buttonSubmit = new System.Windows.Forms.Button();
+            this.groupBoxOutput = new System.Windows.Forms.GroupBox();
+            this.labelDesignationOutput = new System.Windows.Forms.Label();
+            this.labelCityOutput = new System.Windows.Forms.Label();
+            this.labelPostcodeOutput = new System.Windows.Forms.Label();
+            this.labelAddressOutput = new System.Windows.Forms.Label();
+            this.labelDobOutput = new System.Windows.Forms.Label();
+            this.labelNameOutput = new System.Windows.Forms.Label();
             this.groupBoxInput.SuspendLayout();
+            this.groupBoxOutput.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -72,9 +81,9 @@
             this.labelDob.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelDob.Location = new System.Drawing.Point(6, 46);
             this.labelDob.Name = "labelDob";
-            this.labelDob.Size = new System.Drawing.Size(198, 20);
+            this.labelDob.Size = new System.Drawing.Size(106, 20);
             this.labelDob.TabIndex = 2;
-            this.labelDob.Text = "Date Of Birth(dd-mm-yyyy):";
+            this.labelDob.Text = "Date Of Birth:";
             // 
             // labelAddress
             // 
@@ -122,6 +131,7 @@
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(100, 20);
             this.textBoxName.TabIndex = 7;
+            this.textBoxName.TextChanged += new System.EventHandler(this.textBoxName_TextChanged);
             // 
             // textBoxCity
             // 
@@ -129,6 +139,7 @@
             this.textBoxCity.Name = "textBoxCity";
             this.textBoxCity.Size = new System.Drawing.Size(100, 20);
             this.textBoxCity.TabIndex = 8;
+            this.textBoxCity.TextChanged += new System.EventHandler(this.textBoxCity_TextChanged);
             // 
             // textBoxAddress
             // 
@@ -136,6 +147,7 @@
             this.textBoxAddress.Name = "textBoxAddress";
             this.textBoxAddress.Size = new System.Drawing.Size(100, 20);
             this.textBoxAddress.TabIndex = 8;
+            this.textBoxAddress.TextChanged += new System.EventHandler(this.textBoxAddress_TextChanged);
             // 
             // textBoxPostcode
             // 
@@ -143,6 +155,7 @@
             this.textBoxPostcode.Name = "textBoxPostcode";
             this.textBoxPostcode.Size = new System.Drawing.Size(100, 20);
             this.textBoxPostcode.TabIndex = 9;
+            this.textBoxPostcode.TextChanged += new System.EventHandler(this.textBoxPostcode_TextChanged);
             // 
             // textBoxDesignation
             // 
@@ -150,16 +163,19 @@
             this.textBoxDesignation.Name = "textBoxDesignation";
             this.textBoxDesignation.Size = new System.Drawing.Size(100, 20);
             this.textBoxDesignation.TabIndex = 10;
+            this.textBoxDesignation.TextChanged += new System.EventHandler(this.textBoxDesignation_TextChanged);
             // 
             // dateTimePickerDob
             // 
-            this.dateTimePickerDob.Location = new System.Drawing.Point(210, 46);
+            this.dateTimePickerDob.Location = new System.Drawing.Point(118, 45);
             this.dateTimePickerDob.Name = "dateTimePickerDob";
             this.dateTimePickerDob.Size = new System.Drawing.Size(200, 20);
             this.dateTimePickerDob.TabIndex = 11;
+            this.dateTimePickerDob.ValueChanged += new System.EventHandler(this.dateTimePickerDob_ValueChanged);
             // 
             // groupBoxInput
             // 
+            this.groupBoxInput.Controls.Add(this.buttonSubmit);
             this.groupBoxInput.Controls.Add(this.dateTimePickerDob);
             this.groupBoxInput.Controls.Add(this.textBoxDesignation);
             this.groupBoxInput.Controls.Add(this.textBoxPostcode);
@@ -179,17 +195,100 @@
             this.groupBoxInput.TabStop = false;
             this.groupBoxInput.Text = "Input";
             // 
+            // buttonSubmit
+            // 
+            this.buttonSubmit.Location = new System.Drawing.Point(166, 214);
+            this.buttonSubmit.Name = "buttonSubmit";
+            this.buttonSubmit.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmit.TabIndex = 12;
+            this.buttonSubmit.Text = "Submit";
+            this.buttonSubmit.UseVisualStyleBackColor = true;
+            this.buttonSubmit.Click += new System.EventHandler(this.buttonSubmit_Click);
+            // 
+            // groupBoxOutput
+            // 
+            this.groupBoxOutput.Controls.Add(this.labelDesignationOutput);
+            this.groupBoxOutput.Controls.Add(this.labelCityOutput);
+            this.groupBoxOutput.Controls.Add(this.labelPostcodeOutput);
+            this.groupBoxOutput.Controls.Add(this.labelAddressOutput);
+            this.groupBoxOutput.Controls.Add(this.labelDobOutput);
+            this.groupBoxOutput.Controls.Add(this.labelNameOutput);
+            this.groupBoxOutput.Location = new System.Drawing.Point(492, 88);
+            this.groupBoxOutput.Name = "groupBoxOutput";
+            this.groupBoxOutput.Size = new System.Drawing.Size(289, 240);
+            this.groupBoxOutput.TabIndex = 13;
+            this.groupBoxOutput.TabStop = false;
+            this.groupBoxOutput.Text = "Output";
+            // 
+            // labelDesignationOutput
+            // 
+            this.labelDesignationOutput.AutoSize = true;
+            this.labelDesignationOutput.Location = new System.Drawing.Point(125, 166);
+            this.labelDesignationOutput.Name = "labelDesignationOutput";
+            this.labelDesignationOutput.Size = new System.Drawing.Size(50, 13);
+            this.labelDesignationOutput.TabIndex = 5;
+            this.labelDesignationOutput.Text = "Specialty";
+            // 
+            // labelCityOutput
+            // 
+            this.labelCityOutput.AutoSize = true;
+            this.labelCityOutput.Location = new System.Drawing.Point(125, 136);
+            this.labelCityOutput.Name = "labelCityOutput";
+            this.labelCityOutput.Size = new System.Drawing.Size(24, 13);
+            this.labelCityOutput.TabIndex = 4;
+            this.labelCityOutput.Text = "City";
+            // 
+            // labelPostcodeOutput
+            // 
+            this.labelPostcodeOutput.AutoSize = true;
+            this.labelPostcodeOutput.Location = new System.Drawing.Point(125, 101);
+            this.labelPostcodeOutput.Name = "labelPostcodeOutput";
+            this.labelPostcodeOutput.Size = new System.Drawing.Size(52, 13);
+            this.labelPostcodeOutput.TabIndex = 3;
+            this.labelPostcodeOutput.Text = "Postcode";
+            // 
+            // labelAddressOutput
+            // 
+            this.labelAddressOutput.AutoSize = true;
+            this.labelAddressOutput.Location = new System.Drawing.Point(125, 72);
+            this.labelAddressOutput.Name = "labelAddressOutput";
+            this.labelAddressOutput.Size = new System.Drawing.Size(45, 13);
+            this.labelAddressOutput.TabIndex = 2;
+            this.labelAddressOutput.Text = "Address";
+            // 
+            // labelDobOutput
+            // 
+            this.labelDobOutput.AutoSize = true;
+            this.labelDobOutput.Location = new System.Drawing.Point(125, 40);
+            this.labelDobOutput.Name = "labelDobOutput";
+            this.labelDobOutput.Size = new System.Drawing.Size(30, 13);
+            this.labelDobOutput.TabIndex = 1;
+            this.labelDobOutput.Text = "DOB";
+            // 
+            // labelNameOutput
+            // 
+            this.labelNameOutput.AutoSize = true;
+            this.labelNameOutput.Location = new System.Drawing.Point(125, 16);
+            this.labelNameOutput.Name = "labelNameOutput";
+            this.labelNameOutput.Size = new System.Drawing.Size(35, 13);
+            this.labelNameOutput.TabIndex = 0;
+            this.labelNameOutput.Text = "Name";
+            this.labelNameOutput.Click += new System.EventHandler(this.labelNameOutput_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBoxOutput);
             this.Controls.Add(this.groupBoxInput);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "v";
             this.groupBoxInput.ResumeLayout(false);
             this.groupBoxInput.PerformLayout();
+            this.groupBoxOutput.ResumeLayout(false);
+            this.groupBoxOutput.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,6 +310,14 @@
         private System.Windows.Forms.TextBox textBoxDesignation;
         private System.Windows.Forms.DateTimePicker dateTimePickerDob;
         private System.Windows.Forms.GroupBox groupBoxInput;
+        private System.Windows.Forms.Button buttonSubmit;
+        private System.Windows.Forms.GroupBox groupBoxOutput;
+        private System.Windows.Forms.Label labelDesignationOutput;
+        private System.Windows.Forms.Label labelCityOutput;
+        private System.Windows.Forms.Label labelPostcodeOutput;
+        private System.Windows.Forms.Label labelAddressOutput;
+        private System.Windows.Forms.Label labelDobOutput;
+        private System.Windows.Forms.Label labelNameOutput;
     }
 }
 

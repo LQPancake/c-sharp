@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleUni1
 {
+    public class PersonDetails
+    {
+        public string Name { get; set; }
+        public DateTime Dob { get; set; }
+        public string Street { get; set; }
+        public int Postcode { get; set; }
+        public string City { get; set; }
+        public string Designation { get; set; }
+    }
     internal class Program
     {
-        class PersonDetails
-        {
-            public string Name { get; set; }
-            public DateTime Dob { get; set; }
-            public string Street { get; set; }
-            public int Postcode { get; set; }
-            public string City { get; set; }
-            public string Designation { get; set; }
-        }
         static void Main(string[] args)
         {
             VisitingCardCreator card = new VisitingCardCreator();

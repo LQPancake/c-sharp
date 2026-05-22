@@ -1,0 +1,14 @@
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\bin\Debug\FormsUni1.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\bin\Debug\FormsUni1.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\bin\Debug\FormsUni1.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\bin\Debug\ConsoleUni1.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\bin\Debug\ConsoleUni1.pdb
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\bin\Debug\ConsoleUni1.exe.config
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.csproj.AssemblyReference.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.Form1.resources
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.Properties.Resources.resources
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.csproj.GenerateResource.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.csproj.CoreCompileInputs.cache
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.csproj.Up2Date
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.exe
+C:\Users\PancakeLQ\Documents\GitHub\c-sharp\UniAssignmentsPractice\FormsUni1\obj\Debug\FormsUni1.pdb
