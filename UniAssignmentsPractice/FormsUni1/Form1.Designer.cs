@@ -42,6 +42,7 @@
             this.textBoxDesignation = new System.Windows.Forms.TextBox();
             this.dateTimePickerDob = new System.Windows.Forms.DateTimePicker();
             this.groupBoxInput = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.buttonSubmit = new System.Windows.Forms.Button();
             this.groupBoxOutput = new System.Windows.Forms.GroupBox();
             this.labelDesignationOutput = new System.Windows.Forms.Label();
@@ -50,6 +51,8 @@
             this.labelAddressOutput = new System.Windows.Forms.Label();
             this.labelDobOutput = new System.Windows.Forms.Label();
             this.labelNameOutput = new System.Windows.Forms.Label();
+            this.listBoxCards = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBoxInput.SuspendLayout();
             this.groupBoxOutput.SuspendLayout();
             this.SuspendLayout();
@@ -175,6 +178,7 @@
             // 
             // groupBoxInput
             // 
+            this.groupBoxInput.Controls.Add(this.label2);
             this.groupBoxInput.Controls.Add(this.buttonSubmit);
             this.groupBoxInput.Controls.Add(this.dateTimePickerDob);
             this.groupBoxInput.Controls.Add(this.textBoxDesignation);
@@ -188,12 +192,21 @@
             this.groupBoxInput.Controls.Add(this.labelAddress);
             this.groupBoxInput.Controls.Add(this.labelDob);
             this.groupBoxInput.Controls.Add(this.labelName);
-            this.groupBoxInput.Location = new System.Drawing.Point(12, 75);
+            this.groupBoxInput.Location = new System.Drawing.Point(12, 54);
             this.groupBoxInput.Name = "groupBoxInput";
-            this.groupBoxInput.Size = new System.Drawing.Size(434, 254);
+            this.groupBoxInput.Size = new System.Drawing.Size(344, 254);
             this.groupBoxInput.TabIndex = 12;
             this.groupBoxInput.TabStop = false;
             this.groupBoxInput.Text = "Input";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(96, 238);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(227, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "(this will also save the card\'s data to a .csv file)";
             // 
             // buttonSubmit
             // 
@@ -213,9 +226,9 @@
             this.groupBoxOutput.Controls.Add(this.labelAddressOutput);
             this.groupBoxOutput.Controls.Add(this.labelDobOutput);
             this.groupBoxOutput.Controls.Add(this.labelNameOutput);
-            this.groupBoxOutput.Location = new System.Drawing.Point(492, 88);
+            this.groupBoxOutput.Location = new System.Drawing.Point(362, 54);
             this.groupBoxOutput.Name = "groupBoxOutput";
-            this.groupBoxOutput.Size = new System.Drawing.Size(289, 240);
+            this.groupBoxOutput.Size = new System.Drawing.Size(202, 240);
             this.groupBoxOutput.TabIndex = 13;
             this.groupBoxOutput.TabStop = false;
             this.groupBoxOutput.Text = "Output";
@@ -223,7 +236,7 @@
             // labelDesignationOutput
             // 
             this.labelDesignationOutput.AutoSize = true;
-            this.labelDesignationOutput.Location = new System.Drawing.Point(125, 166);
+            this.labelDesignationOutput.Location = new System.Drawing.Point(16, 172);
             this.labelDesignationOutput.Name = "labelDesignationOutput";
             this.labelDesignationOutput.Size = new System.Drawing.Size(50, 13);
             this.labelDesignationOutput.TabIndex = 5;
@@ -232,7 +245,7 @@
             // labelCityOutput
             // 
             this.labelCityOutput.AutoSize = true;
-            this.labelCityOutput.Location = new System.Drawing.Point(125, 136);
+            this.labelCityOutput.Location = new System.Drawing.Point(16, 142);
             this.labelCityOutput.Name = "labelCityOutput";
             this.labelCityOutput.Size = new System.Drawing.Size(24, 13);
             this.labelCityOutput.TabIndex = 4;
@@ -241,7 +254,7 @@
             // labelPostcodeOutput
             // 
             this.labelPostcodeOutput.AutoSize = true;
-            this.labelPostcodeOutput.Location = new System.Drawing.Point(125, 101);
+            this.labelPostcodeOutput.Location = new System.Drawing.Point(16, 107);
             this.labelPostcodeOutput.Name = "labelPostcodeOutput";
             this.labelPostcodeOutput.Size = new System.Drawing.Size(52, 13);
             this.labelPostcodeOutput.TabIndex = 3;
@@ -250,7 +263,7 @@
             // labelAddressOutput
             // 
             this.labelAddressOutput.AutoSize = true;
-            this.labelAddressOutput.Location = new System.Drawing.Point(125, 72);
+            this.labelAddressOutput.Location = new System.Drawing.Point(16, 78);
             this.labelAddressOutput.Name = "labelAddressOutput";
             this.labelAddressOutput.Size = new System.Drawing.Size(45, 13);
             this.labelAddressOutput.TabIndex = 2;
@@ -259,7 +272,7 @@
             // labelDobOutput
             // 
             this.labelDobOutput.AutoSize = true;
-            this.labelDobOutput.Location = new System.Drawing.Point(125, 40);
+            this.labelDobOutput.Location = new System.Drawing.Point(16, 46);
             this.labelDobOutput.Name = "labelDobOutput";
             this.labelDobOutput.Size = new System.Drawing.Size(30, 13);
             this.labelDobOutput.TabIndex = 1;
@@ -268,23 +281,43 @@
             // labelNameOutput
             // 
             this.labelNameOutput.AutoSize = true;
-            this.labelNameOutput.Location = new System.Drawing.Point(125, 16);
+            this.labelNameOutput.Location = new System.Drawing.Point(16, 22);
             this.labelNameOutput.Name = "labelNameOutput";
             this.labelNameOutput.Size = new System.Drawing.Size(35, 13);
             this.labelNameOutput.TabIndex = 0;
             this.labelNameOutput.Text = "Name";
             this.labelNameOutput.Click += new System.EventHandler(this.labelNameOutput_Click);
             // 
+            // listBoxCards
+            // 
+            this.listBoxCards.FormattingEnabled = true;
+            this.listBoxCards.Location = new System.Drawing.Point(570, 79);
+            this.listBoxCards.Name = "listBoxCards";
+            this.listBoxCards.Size = new System.Drawing.Size(225, 212);
+            this.listBoxCards.TabIndex = 14;
+            this.listBoxCards.SelectedIndexChanged += new System.EventHandler(this.listBoxCards_SelectedIndexChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(581, 63);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(154, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Select already existing cards \\/";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.listBoxCards);
             this.Controls.Add(this.groupBoxOutput);
             this.Controls.Add(this.groupBoxInput);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "v";
+            this.Text = "Card Maker Form";
             this.groupBoxInput.ResumeLayout(false);
             this.groupBoxInput.PerformLayout();
             this.groupBoxOutput.ResumeLayout(false);
@@ -318,6 +351,9 @@
         private System.Windows.Forms.Label labelAddressOutput;
         private System.Windows.Forms.Label labelDobOutput;
         private System.Windows.Forms.Label labelNameOutput;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox listBoxCards;
+        private System.Windows.Forms.Label label3;
     }
 }
 

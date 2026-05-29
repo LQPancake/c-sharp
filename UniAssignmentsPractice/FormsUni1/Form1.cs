@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConsoleUni1;
+using System;
+using System.IO;
 using System.Windows.Forms;
-using ConsoleUni1;
 
 namespace FormsUni1
 {
@@ -17,7 +11,24 @@ namespace FormsUni1
         {
             InitializeComponent();
         }
-
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            listBoxCards.Items.Clear(); // Clear existing items
+            try
+            {
+                using (StreamReader sr = new StreamReader("persondetails.csv"))
+                {
+                    while (!sr.EndOfStream)
+                    {
+                        listBoxCards.Items.Add(sr.ReadLine());
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error reading file: {ex.Message}");
+            }
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -65,12 +76,23 @@ namespace FormsUni1
             labelPostcodeOutput.Text = $"Postcode: {person.Postcode}";
             labelCityOutput.Text = $"City: {person.City}";
             labelDesignationOutput.Text = $"Designation: {person.Designation}";
-
+            using (StreamWriter sw = new StreamWriter("persondetails.csv", true))
+            {
+                if (!File.Exists("persondetails.csv"))
+                {
+                    sw.WriteLine("Name;Dob;Street;Postcode;City;Designation");
+                }
+                sw.WriteLine($"{person.Name};{person.Dob.ToShortDateString()};{person.Street};{person.Postcode};{person.City};{person.Designation}");
+            }
         }
 
         private void labelNameOutput_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void listBoxCards_SelectedIndexChanged(object sender, EventArgs e)
+        {
         }
     }
 }
