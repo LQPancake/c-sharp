@@ -1,6 +1,7 @@
 ﻿using ConsoleUni1;
 using System;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace FormsUni1
@@ -13,20 +14,24 @@ namespace FormsUni1
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            listBoxCards.Items.Clear(); // Clear existing items
-            try
+            LoadCsv();
+        }
+        private void LoadCsv()
+        {
+            string filePath = "persondetails.csv";
+            listBoxCards.Items.Clear();
+
+            if (!File.Exists(filePath))
+                return;
+
+            var lines = File.ReadAllLines(filePath);
+
+            foreach (var line in lines)
             {
-                using (StreamReader sr = new StreamReader("persondetails.csv"))
-                {
-                    while (!sr.EndOfStream)
-                    {
-                        listBoxCards.Items.Add(sr.ReadLine());
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error reading file: {ex.Message}");
+                var parts = line.Split(';');
+                if (parts.Length < 6) continue;
+
+                listBoxCards.Items.Add($"{parts[0]} | {parts[4]} | {parts[5]}");
             }
         }
         private void label1_Click(object sender, EventArgs e)
@@ -76,9 +81,9 @@ namespace FormsUni1
             labelPostcodeOutput.Text = $"Postcode: {person.Postcode}";
             labelCityOutput.Text = $"City: {person.City}";
             labelDesignationOutput.Text = $"Designation: {person.Designation}";
-            using (StreamWriter sw = new StreamWriter("persondetails.csv", true))
+            using (StreamWriter sw = new StreamWriter("..\\..\\..\\persondetails.csv", true))
             {
-                if (!File.Exists("persondetails.csv"))
+                if (!File.Exists("..\\..\\..\\persondetails.csv"))
                 {
                     sw.WriteLine("Name;Dob;Street;Postcode;City;Designation");
                 }
@@ -93,6 +98,26 @@ namespace FormsUni1
 
         private void listBoxCards_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (listBoxCards.SelectedIndex < 0)
+                return;
+
+            string filePath = "persondetails.csv";
+            var lines = File.ReadAllLines(filePath);
+            var dataLines = lines.ToArray();
+
+            if (listBoxCards.SelectedIndex >= dataLines.Length)
+                return;
+
+            var parts = dataLines[listBoxCards.SelectedIndex].Split(';');
+            if (parts.Length < 6) return;
+
+            // Populate the result labels
+            labelNameOutput.Text = $"Name: {parts[0]}";
+            labelDobOutput.Text = $"DOB: {parts[1]}";
+            labelAddressOutput.Text = $"Street: {parts[2]}";
+            labelPostcodeOutput.Text = $"Postcode: {parts[3]}";
+            labelCityOutput.Text = $"City: {parts[4]}";
+            labelDesignationOutput.Text = $"Designation: {parts[5]}";
         }
     }
 }

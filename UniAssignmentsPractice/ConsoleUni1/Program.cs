@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Runtime.Remoting.Lifetime;
 using System.Security.Cryptography.X509Certificates;
@@ -43,6 +44,15 @@ namespace ConsoleUni1
             person.Designation = Console.ReadLine();
             // Data Output
             card.PrintVisitingCard(person);
+            // StreamWriter
+            using (StreamWriter sw = new StreamWriter("..\\..\\..\\persondetails.csv", true))
+            {
+                if (!File.Exists("..\\..\\..\\persondetails.csv"))
+                {
+                    sw.WriteLine("Name;Dob;Street;Postcode;City;Designation");
+                }
+                sw.WriteLine($"{person.Name};{person.Dob.ToShortDateString()};{person.Street};{person.Postcode};{person.City};{person.Designation}");
+            }
         }
         class VisitingCardCreator
         {
