@@ -11,10 +11,11 @@ namespace FormsUni1
         public Form1()
         {
             InitializeComponent();
+            LoadCsv();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadCsv();
+        
         }
         private void LoadCsv()
         {
